@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		561FCE78631D6610477D91C3 /* libPods-Dyzb_UTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0873B0FA5BDD2C2B1963E54D /* libPods-Dyzb_UTUITests.a */; };
+		73AD14BE62FABE818D1FC502 /* libPods-Dyzb_UT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */; };
+		8DF9A1557D6970A19FF35C2C /* libPods-Dyzb_UTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3838D0A6B133998715B895 /* libPods-Dyzb_UTTests.a */; };
 		CF1A177C1E9C640F0019C205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A177B1E9C640F0019C205 /* main.m */; };
 		CF1A177F1E9C640F0019C205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A177E1E9C640F0019C205 /* AppDelegate.m */; };
 		CF1A17821E9C640F0019C205 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A17811E9C640F0019C205 /* ViewController.m */; };
@@ -15,6 +18,48 @@
 		CF1A178A1E9C640F0019C205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17881E9C640F0019C205 /* LaunchScreen.storyboard */; };
 		CF1A17951E9C640F0019C205 /* Dyzb_UTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A17941E9C640F0019C205 /* Dyzb_UTTests.m */; };
 		CF1A17A01E9C640F0019C205 /* Dyzb_UTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A179F1E9C640F0019C205 /* Dyzb_UTUITests.m */; };
+		CF1A17E41E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17B01E9C6A840019C205 /* placehoder.txt */; };
+		CF1A17E51E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17B21E9C6A840019C205 /* placehoder.txt */; };
+		CF1A17E61E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17B41E9C6A840019C205 /* placehoder.txt */; };
+		CF1A17E71E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17B61E9C6A840019C205 /* placehoder.txt */; };
+		CF1A17E81E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17B91E9C6A840019C205 /* placehoder.txt */; };
+		CF1A17E91E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17BB1E9C6A840019C205 /* placehoder.txt */; };
+		CF1A17EA1E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17BD1E9C6A840019C205 /* placehoder.txt */; };
+		CF1A17EB1E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17BF1E9C6A840019C205 /* placehoder.txt */; };
+		CF1A17EC1E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17C21E9C6A840019C205 /* placehoder.txt */; };
+		CF1A17ED1E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17C41E9C6A840019C205 /* placehoder.txt */; };
+		CF1A17EE1E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17C61E9C6A850019C205 /* placehoder.txt */; };
+		CF1A17EF1E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17C81E9C6A850019C205 /* placehoder.txt */; };
+		CF1A17F01E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17CB1E9C6A850019C205 /* placehoder.txt */; };
+		CF1A17F11E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17CD1E9C6A850019C205 /* placehoder.txt */; };
+		CF1A17F21E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17CF1E9C6A850019C205 /* placehoder.txt */; };
+		CF1A17F31E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17D11E9C6A850019C205 /* placehoder.txt */; };
+		CF1A17F41E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17D41E9C6A850019C205 /* placehoder.txt */; };
+		CF1A17F51E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17D61E9C6A850019C205 /* placehoder.txt */; };
+		CF1A17F61E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17D81E9C6A850019C205 /* placehoder.txt */; };
+		CF1A17F71E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17DA1E9C6A850019C205 /* placehoder.txt */; };
+		CF1A17F81E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17DD1E9C6A850019C205 /* placehoder.txt */; };
+		CF1A17F91E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17DF1E9C6A850019C205 /* placehoder.txt */; };
+		CF1A17FA1E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17E11E9C6A850019C205 /* placehoder.txt */; };
+		CF1A17FB1E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17E31E9C6A850019C205 /* placehoder.txt */; };
+		CF1A17FE1E9C6DC30019C205 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A17FD1E9C6DC30019C205 /* BaseViewController.m */; };
+		CF1A18011E9C6DE30019C205 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18001E9C6DE30019C205 /* BaseModel.m */; };
+		CF1A18041E9C6E010019C205 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18031E9C6E010019C205 /* BaseView.m */; };
+		CF1A18071E9C6E1C0019C205 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18061E9C6E1C0019C205 /* BaseTableView.m */; };
+		CF1A180A1E9C6E2C0019C205 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18091E9C6E2C0019C205 /* BaseTableViewCell.m */; };
+		CF1A180D1E9C6E610019C205 /* BaseUICoccectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A180C1E9C6E610019C205 /* BaseUICoccectionView.m */; };
+		CF1A18101E9C6EBC0019C205 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A180F1E9C6EBC0019C205 /* FindViewController.m */; };
+		CF1A18131E9C6F2B0019C205 /* FollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18121E9C6F2B0019C205 /* FollowViewController.m */; };
+		CF1A18161E9C6F3D0019C205 /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18151E9C6F3D0019C205 /* LiveViewController.m */; };
+		CF1A18191E9C6F4D0019C205 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18181E9C6F4D0019C205 /* UserViewController.m */; };
+		CF1A18231E9C6F8E0019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A181C1E9C6F8E0019C205 /* placehoder.txt */; };
+		CF1A18241E9C6F8E0019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A181E1E9C6F8E0019C205 /* placehoder.txt */; };
+		CF1A18251E9C6F8E0019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A18201E9C6F8E0019C205 /* placehoder.txt */; };
+		CF1A18261E9C6F8E0019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A18221E9C6F8E0019C205 /* placehoder.txt */; };
+		CF1A18291E9C700A0019C205 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18281E9C700A0019C205 /* HomeViewController.m */; };
+		CF1A182C1E9C70350019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A182B1E9C70350019C205 /* placehoder.txt */; };
+		CF1A182F1E9C70FF0019C205 /* DYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A182E1E9C70FF0019C205 /* DYTabBarViewController.m */; };
+		CF1A18321E9C75D00019C205 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1A18311E9C75D00019C205 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +80,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0873B0FA5BDD2C2B1963E54D /* libPods-Dyzb_UTUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dyzb_UTUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFEF3F55B0AF22A69D56891 /* Pods-Dyzb_UTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UTUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UTUITests/Pods-Dyzb_UTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		313C4F7FB951DEE7F8FA5ADF /* Pods-Dyzb_UTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UTTests/Pods-Dyzb_UTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37F3F66CB70A35E21F383102 /* Pods-Dyzb_UTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UTUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UTUITests/Pods-Dyzb_UTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F3838D0A6B133998715B895 /* libPods-Dyzb_UTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dyzb_UTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7404691FDA7902697979CE46 /* Pods-Dyzb_UT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UT/Pods-Dyzb_UT.debug.xcconfig"; sourceTree = "<group>"; };
+		7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dyzb_UT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1A17771E9C640F0019C205 /* Dyzb_UT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyzb_UT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1A177B1E9C640F0019C205 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF1A177D1E9C640F0019C205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +103,64 @@
 		CF1A179B1E9C640F0019C205 /* Dyzb_UTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dyzb_UTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1A179F1E9C640F0019C205 /* Dyzb_UTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dyzb_UTUITests.m; sourceTree = "<group>"; };
 		CF1A17A11E9C640F0019C205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1A17B01E9C6A840019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17B21E9C6A840019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17B41E9C6A840019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17B61E9C6A840019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17B91E9C6A840019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17BB1E9C6A840019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17BD1E9C6A840019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17BF1E9C6A840019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17C21E9C6A840019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17C41E9C6A840019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17C61E9C6A850019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17C81E9C6A850019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17CB1E9C6A850019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17CD1E9C6A850019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17CF1E9C6A850019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17D11E9C6A850019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17D41E9C6A850019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17D61E9C6A850019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17D81E9C6A850019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17DA1E9C6A850019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17DD1E9C6A850019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17DF1E9C6A850019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17E11E9C6A850019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17E31E9C6A850019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A17FC1E9C6DC30019C205 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CF1A17FD1E9C6DC30019C205 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CF1A17FF1E9C6DE30019C205 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		CF1A18001E9C6DE30019C205 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		CF1A18021E9C6E010019C205 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		CF1A18031E9C6E010019C205 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		CF1A18051E9C6E1C0019C205 /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		CF1A18061E9C6E1C0019C205 /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		CF1A18081E9C6E2C0019C205 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		CF1A18091E9C6E2C0019C205 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		CF1A180B1E9C6E610019C205 /* BaseUICoccectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUICoccectionView.h; sourceTree = "<group>"; };
+		CF1A180C1E9C6E610019C205 /* BaseUICoccectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUICoccectionView.m; sourceTree = "<group>"; };
+		CF1A180E1E9C6EBC0019C205 /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		CF1A180F1E9C6EBC0019C205 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		CF1A18111E9C6F2B0019C205 /* FollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowViewController.h; sourceTree = "<group>"; };
+		CF1A18121E9C6F2B0019C205 /* FollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowViewController.m; sourceTree = "<group>"; };
+		CF1A18141E9C6F3D0019C205 /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		CF1A18151E9C6F3D0019C205 /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		CF1A18171E9C6F4D0019C205 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		CF1A18181E9C6F4D0019C205 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		CF1A181C1E9C6F8E0019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A181E1E9C6F8E0019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A18201E9C6F8E0019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A18221E9C6F8E0019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A18271E9C700A0019C205 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CF1A18281E9C700A0019C205 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CF1A182B1E9C70350019C205 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF1A182D1E9C70FF0019C205 /* DYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYTabBarViewController.h; sourceTree = "<group>"; };
+		CF1A182E1E9C70FF0019C205 /* DYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYTabBarViewController.m; sourceTree = "<group>"; };
+		CF1A18311E9C75D00019C205 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF1A18341E9C7A7F0019C205 /* Dyzb_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dyzb_define.h; sourceTree = "<group>"; };
+		CF1A18351E9C7A900019C205 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E8079D01639B8791E8B5D19F /* Pods-Dyzb_UT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UT.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UT/Pods-Dyzb_UT.release.xcconfig"; sourceTree = "<group>"; };
+		FA8845A415EF31F8840A401B /* Pods-Dyzb_UTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UTTests/Pods-Dyzb_UTTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73AD14BE62FABE818D1FC502 /* libPods-Dyzb_UT.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF9A1557D6970A19FF35C2C /* libPods-Dyzb_UTTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +184,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561FCE78631D6610477D91C3 /* libPods-Dyzb_UTUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F22426EF667A55A1F2D208A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7404691FDA7902697979CE46 /* Pods-Dyzb_UT.debug.xcconfig */,
+				E8079D01639B8791E8B5D19F /* Pods-Dyzb_UT.release.xcconfig */,
+				313C4F7FB951DEE7F8FA5ADF /* Pods-Dyzb_UTTests.debug.xcconfig */,
+				FA8845A415EF31F8840A401B /* Pods-Dyzb_UTTests.release.xcconfig */,
+				37F3F66CB70A35E21F383102 /* Pods-Dyzb_UTUITests.debug.xcconfig */,
+				2DFEF3F55B0AF22A69D56891 /* Pods-Dyzb_UTUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		256E4D2D970EC45546160D4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */,
+				5F3838D0A6B133998715B895 /* libPods-Dyzb_UTTests.a */,
+				0873B0FA5BDD2C2B1963E54D /* libPods-Dyzb_UTUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF1A176E1E9C640E0019C205 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +221,8 @@
 				CF1A17931E9C640F0019C205 /* Dyzb_UTTests */,
 				CF1A179E1E9C640F0019C205 /* Dyzb_UTUITests */,
 				CF1A17781E9C640F0019C205 /* Products */,
+				0F22426EF667A55A1F2D208A /* Pods */,
+				256E4D2D970EC45546160D4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +239,8 @@
 		CF1A17791E9C640F0019C205 /* Dyzb_UT */ = {
 			isa = PBXGroup;
 			children = (
+				CF1A17AD1E9C6A840019C205 /* Classes */,
+				CF1A182A1E9C70340019C205 /* Tools */,
 				CF1A177D1E9C640F0019C205 /* AppDelegate.h */,
 				CF1A177E1E9C640F0019C205 /* AppDelegate.m */,
 				CF1A17801E9C640F0019C205 /* ViewController.h */,
@@ -109,6 +249,7 @@
 				CF1A17861E9C640F0019C205 /* Assets.xcassets */,
 				CF1A17881E9C640F0019C205 /* LaunchScreen.storyboard */,
 				CF1A178B1E9C640F0019C205 /* Info.plist */,
+				CF1A18311E9C75D00019C205 /* Images.xcassets */,
 				CF1A177A1E9C640F0019C205 /* Supporting Files */,
 			);
 			path = Dyzb_UT;
@@ -140,6 +281,364 @@
 			path = Dyzb_UTUITests;
 			sourceTree = "<group>";
 		};
+		CF1A17AD1E9C6A840019C205 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A18301E9C71D80019C205 /* Dyzb */,
+				CF1A181A1E9C6F8E0019C205 /* Home */,
+				CF1A17AE1E9C6A840019C205 /* Base */,
+				CF1A17B71E9C6A840019C205 /* Commen */,
+				CF1A17C01E9C6A840019C205 /* Find */,
+				CF1A17C91E9C6A850019C205 /* Follow */,
+				CF1A17D21E9C6A850019C205 /* Live */,
+				CF1A17DB1E9C6A850019C205 /* User */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CF1A17AE1E9C6A840019C205 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17AF1E9C6A840019C205 /* Controller */,
+				CF1A17B11E9C6A840019C205 /* Model */,
+				CF1A17B31E9C6A840019C205 /* View */,
+				CF1A17B51E9C6A840019C205 /* ViewModel */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CF1A17AF1E9C6A840019C205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17B01E9C6A840019C205 /* placehoder.txt */,
+				CF1A17FC1E9C6DC30019C205 /* BaseViewController.h */,
+				CF1A17FD1E9C6DC30019C205 /* BaseViewController.m */,
+				CF1A182D1E9C70FF0019C205 /* DYTabBarViewController.h */,
+				CF1A182E1E9C70FF0019C205 /* DYTabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF1A17B11E9C6A840019C205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17B21E9C6A840019C205 /* placehoder.txt */,
+				CF1A17FF1E9C6DE30019C205 /* BaseModel.h */,
+				CF1A18001E9C6DE30019C205 /* BaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF1A17B31E9C6A840019C205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17B41E9C6A840019C205 /* placehoder.txt */,
+				CF1A18021E9C6E010019C205 /* BaseView.h */,
+				CF1A18031E9C6E010019C205 /* BaseView.m */,
+				CF1A18051E9C6E1C0019C205 /* BaseTableView.h */,
+				CF1A18061E9C6E1C0019C205 /* BaseTableView.m */,
+				CF1A18081E9C6E2C0019C205 /* BaseTableViewCell.h */,
+				CF1A18091E9C6E2C0019C205 /* BaseTableViewCell.m */,
+				CF1A180B1E9C6E610019C205 /* BaseUICoccectionView.h */,
+				CF1A180C1E9C6E610019C205 /* BaseUICoccectionView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF1A17B51E9C6A840019C205 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17B61E9C6A840019C205 /* placehoder.txt */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF1A17B71E9C6A840019C205 /* Commen */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17B81E9C6A840019C205 /* Controller */,
+				CF1A17BA1E9C6A840019C205 /* Model */,
+				CF1A17BC1E9C6A840019C205 /* View */,
+				CF1A17BE1E9C6A840019C205 /* ViewModel */,
+			);
+			path = Commen;
+			sourceTree = "<group>";
+		};
+		CF1A17B81E9C6A840019C205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17B91E9C6A840019C205 /* placehoder.txt */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF1A17BA1E9C6A840019C205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17BB1E9C6A840019C205 /* placehoder.txt */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF1A17BC1E9C6A840019C205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17BD1E9C6A840019C205 /* placehoder.txt */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF1A17BE1E9C6A840019C205 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17BF1E9C6A840019C205 /* placehoder.txt */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF1A17C01E9C6A840019C205 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17C11E9C6A840019C205 /* Controller */,
+				CF1A17C31E9C6A840019C205 /* Model */,
+				CF1A17C51E9C6A840019C205 /* View */,
+				CF1A17C71E9C6A850019C205 /* ViewModel */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		CF1A17C11E9C6A840019C205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17C21E9C6A840019C205 /* placehoder.txt */,
+				CF1A180E1E9C6EBC0019C205 /* FindViewController.h */,
+				CF1A180F1E9C6EBC0019C205 /* FindViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF1A17C31E9C6A840019C205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17C41E9C6A840019C205 /* placehoder.txt */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF1A17C51E9C6A840019C205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17C61E9C6A850019C205 /* placehoder.txt */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF1A17C71E9C6A850019C205 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17C81E9C6A850019C205 /* placehoder.txt */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF1A17C91E9C6A850019C205 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17CA1E9C6A850019C205 /* Controller */,
+				CF1A17CC1E9C6A850019C205 /* Model */,
+				CF1A17CE1E9C6A850019C205 /* View */,
+				CF1A17D01E9C6A850019C205 /* ViewModel */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		CF1A17CA1E9C6A850019C205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17CB1E9C6A850019C205 /* placehoder.txt */,
+				CF1A18111E9C6F2B0019C205 /* FollowViewController.h */,
+				CF1A18121E9C6F2B0019C205 /* FollowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF1A17CC1E9C6A850019C205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17CD1E9C6A850019C205 /* placehoder.txt */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF1A17CE1E9C6A850019C205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17CF1E9C6A850019C205 /* placehoder.txt */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF1A17D01E9C6A850019C205 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17D11E9C6A850019C205 /* placehoder.txt */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF1A17D21E9C6A850019C205 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17D31E9C6A850019C205 /* Controller */,
+				CF1A17D51E9C6A850019C205 /* Model */,
+				CF1A17D71E9C6A850019C205 /* View */,
+				CF1A17D91E9C6A850019C205 /* ViewModel */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		CF1A17D31E9C6A850019C205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17D41E9C6A850019C205 /* placehoder.txt */,
+				CF1A18141E9C6F3D0019C205 /* LiveViewController.h */,
+				CF1A18151E9C6F3D0019C205 /* LiveViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF1A17D51E9C6A850019C205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17D61E9C6A850019C205 /* placehoder.txt */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF1A17D71E9C6A850019C205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17D81E9C6A850019C205 /* placehoder.txt */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF1A17D91E9C6A850019C205 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17DA1E9C6A850019C205 /* placehoder.txt */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF1A17DB1E9C6A850019C205 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17DC1E9C6A850019C205 /* Controller */,
+				CF1A17DE1E9C6A850019C205 /* Model */,
+				CF1A17E01E9C6A850019C205 /* View */,
+				CF1A17E21E9C6A850019C205 /* ViewModel */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		CF1A17DC1E9C6A850019C205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17DD1E9C6A850019C205 /* placehoder.txt */,
+				CF1A18171E9C6F4D0019C205 /* UserViewController.h */,
+				CF1A18181E9C6F4D0019C205 /* UserViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF1A17DE1E9C6A850019C205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17DF1E9C6A850019C205 /* placehoder.txt */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF1A17E01E9C6A850019C205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17E11E9C6A850019C205 /* placehoder.txt */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF1A17E21E9C6A850019C205 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A17E31E9C6A850019C205 /* placehoder.txt */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF1A181A1E9C6F8E0019C205 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A181B1E9C6F8E0019C205 /* Controller */,
+				CF1A181D1E9C6F8E0019C205 /* Model */,
+				CF1A181F1E9C6F8E0019C205 /* View */,
+				CF1A18211E9C6F8E0019C205 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CF1A181B1E9C6F8E0019C205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A181C1E9C6F8E0019C205 /* placehoder.txt */,
+				CF1A18271E9C700A0019C205 /* HomeViewController.h */,
+				CF1A18281E9C700A0019C205 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF1A181D1E9C6F8E0019C205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A181E1E9C6F8E0019C205 /* placehoder.txt */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF1A181F1E9C6F8E0019C205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A18201E9C6F8E0019C205 /* placehoder.txt */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF1A18211E9C6F8E0019C205 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A18221E9C6F8E0019C205 /* placehoder.txt */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF1A182A1E9C70340019C205 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A182B1E9C70350019C205 /* placehoder.txt */,
+			);
+			name = Tools;
+			path = Classes/Tools;
+			sourceTree = "<group>";
+		};
+		CF1A18301E9C71D80019C205 /* Dyzb */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A18341E9C7A7F0019C205 /* Dyzb_define.h */,
+				CF1A18351E9C7A900019C205 /* PrefixHeader.pch */,
+			);
+			path = Dyzb;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +646,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF1A17A41E9C640F0019C205 /* Build configuration list for PBXNativeTarget "Dyzb_UT" */;
 			buildPhases = (
+				078F077080734BA1811926D0 /* [CP] Check Pods Manifest.lock */,
 				CF1A17731E9C640E0019C205 /* Sources */,
 				CF1A17741E9C640E0019C205 /* Frameworks */,
 				CF1A17751E9C640E0019C205 /* Resources */,
+				729177267BC88B3E45A001E6 /* [CP] Embed Pods Frameworks */,
+				BC6D0DF0DCB67890219C6BBA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +666,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF1A17A71E9C640F0019C205 /* Build configuration list for PBXNativeTarget "Dyzb_UTTests" */;
 			buildPhases = (
+				77ABBADE158548790A6C2D69 /* [CP] Check Pods Manifest.lock */,
 				CF1A178C1E9C640F0019C205 /* Sources */,
 				CF1A178D1E9C640F0019C205 /* Frameworks */,
 				CF1A178E1E9C640F0019C205 /* Resources */,
+				198D65CA0CF6D50E66ED7A3B /* [CP] Embed Pods Frameworks */,
+				42F6A2287C3C4166AF6E8E01 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +687,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF1A17AA1E9C640F0019C205 /* Build configuration list for PBXNativeTarget "Dyzb_UTUITests" */;
 			buildPhases = (
+				2335D053DE59D3F39A793DEE /* [CP] Check Pods Manifest.lock */,
 				CF1A17971E9C640F0019C205 /* Sources */,
 				CF1A17981E9C640F0019C205 /* Frameworks */,
 				CF1A17991E9C640F0019C205 /* Resources */,
+				2A240BBAB4F815DB462AF7B5 /* [CP] Embed Pods Frameworks */,
+				1BFB15A2E2ABBD6DA31D783A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,8 +758,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF1A178A1E9C640F0019C205 /* LaunchScreen.storyboard in Resources */,
+				CF1A17EA1E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17E51E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A18231E9C6F8E0019C205 /* placehoder.txt in Resources */,
+				CF1A17FA1E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17F81E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17F51E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17F01E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17EE1E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17ED1E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17EC1E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17F31E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17EF1E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17F91E9C6A850019C205 /* placehoder.txt in Resources */,
 				CF1A17871E9C640F0019C205 /* Assets.xcassets in Resources */,
+				CF1A18321E9C75D00019C205 /* Images.xcassets in Resources */,
+				CF1A17E81E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17F41E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A18241E9C6F8E0019C205 /* placehoder.txt in Resources */,
+				CF1A17F71E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A182C1E9C70350019C205 /* placehoder.txt in Resources */,
+				CF1A17E71E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17E61E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A18251E9C6F8E0019C205 /* placehoder.txt in Resources */,
+				CF1A17F11E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17E91E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17EB1E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17F21E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A18261E9C6F8E0019C205 /* placehoder.txt in Resources */,
+				CF1A17F61E9C6A850019C205 /* placehoder.txt in Resources */,
+				CF1A17FB1E9C6A850019C205 /* placehoder.txt in Resources */,
 				CF1A17851E9C640F0019C205 /* Main.storyboard in Resources */,
+				CF1A17E41E9C6A850019C205 /* placehoder.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +809,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		078F077080734BA1811926D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		198D65CA0CF6D50E66ED7A3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dyzb_UTTests/Pods-Dyzb_UTTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BFB15A2E2ABBD6DA31D783A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dyzb_UTUITests/Pods-Dyzb_UTUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2335D053DE59D3F39A793DEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2A240BBAB4F815DB462AF7B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dyzb_UTUITests/Pods-Dyzb_UTUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42F6A2287C3C4166AF6E8E01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dyzb_UTTests/Pods-Dyzb_UTTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		729177267BC88B3E45A001E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dyzb_UT/Pods-Dyzb_UT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77ABBADE158548790A6C2D69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC6D0DF0DCB67890219C6BBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dyzb_UT/Pods-Dyzb_UT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF1A17731E9C640E0019C205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CF1A17821E9C640F0019C205 /* ViewController.m in Sources */,
+				CF1A18131E9C6F2B0019C205 /* FollowViewController.m in Sources */,
+				CF1A17FE1E9C6DC30019C205 /* BaseViewController.m in Sources */,
 				CF1A177F1E9C640F0019C205 /* AppDelegate.m in Sources */,
+				CF1A18011E9C6DE30019C205 /* BaseModel.m in Sources */,
+				CF1A18291E9C700A0019C205 /* HomeViewController.m in Sources */,
+				CF1A180A1E9C6E2C0019C205 /* BaseTableViewCell.m in Sources */,
+				CF1A18161E9C6F3D0019C205 /* LiveViewController.m in Sources */,
+				CF1A180D1E9C6E610019C205 /* BaseUICoccectionView.m in Sources */,
 				CF1A177C1E9C640F0019C205 /* main.m in Sources */,
+				CF1A18101E9C6EBC0019C205 /* FindViewController.m in Sources */,
+				CF1A18041E9C6E010019C205 /* BaseView.m in Sources */,
+				CF1A182F1E9C70FF0019C205 /* DYTabBarViewController.m in Sources */,
+				CF1A18191E9C6F4D0019C205 /* UserViewController.m in Sources */,
+				CF1A18071E9C6E1C0019C205 /* BaseTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,10 +1113,14 @@
 		};
 		CF1A17A51E9C640F0019C205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7404691FDA7902697979CE46 /* Pods-Dyzb_UT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 744C2UT6NN;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Dyzb_UT/Classes/Dyzb/PrefixHeader.pch";
 				INFOPLIST_FILE = Dyzb_UT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.utsoft.Dyzb-UT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +1129,14 @@
 		};
 		CF1A17A61E9C640F0019C205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8079D01639B8791E8B5D19F /* Pods-Dyzb_UT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 744C2UT6NN;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Dyzb_UT/Classes/Dyzb/PrefixHeader.pch";
 				INFOPLIST_FILE = Dyzb_UT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.utsoft.Dyzb-UT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,6 +1145,7 @@
 		};
 		CF1A17A81E9C640F0019C205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313C4F7FB951DEE7F8FA5ADF /* Pods-Dyzb_UTTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 744C2UT6NN;
@@ -462,6 +1159,7 @@
 		};
 		CF1A17A91E9C640F0019C205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8845A415EF31F8840A401B /* Pods-Dyzb_UTTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 744C2UT6NN;
@@ -475,6 +1173,7 @@
 		};
 		CF1A17AB1E9C640F0019C205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F3F66CB70A35E21F383102 /* Pods-Dyzb_UTUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 744C2UT6NN;
 				INFOPLIST_FILE = Dyzb_UTUITests/Info.plist;
@@ -487,6 +1186,7 @@
 		};
 		CF1A17AC1E9C640F0019C205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DFEF3F55B0AF22A69D56891 /* Pods-Dyzb_UTUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 744C2UT6NN;
 				INFOPLIST_FILE = Dyzb_UTUITests/Info.plist;
@@ -516,6 +1216,7 @@
 				CF1A17A61E9C640F0019C205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF1A17A71E9C640F0019C205 /* Build configuration list for PBXNativeTarget "Dyzb_UTTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +1225,7 @@
 				CF1A17A91E9C640F0019C205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF1A17AA1E9C640F0019C205 /* Build configuration list for PBXNativeTarget "Dyzb_UTUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +1234,7 @@
 				CF1A17AC1E9C640F0019C205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

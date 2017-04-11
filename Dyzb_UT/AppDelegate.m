@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "DYTabBarViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    DYTabBarViewController *pRootViewController = [DYTabBarViewController new];
+    self.window.rootViewController = pRootViewController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
