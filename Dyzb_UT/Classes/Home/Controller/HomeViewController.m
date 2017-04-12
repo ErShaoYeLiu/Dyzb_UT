@@ -19,8 +19,13 @@
     // Do any additional setup after loading the view.
     self.navigationItem.title = @"首页";
     self.view.backgroundColor = [UIColor purpleColor];
-}
 
+    [DyHttpTool post:@"http://apistore.baidu.com/microservice/weather?citypinyin=beijing" params:nil success:^(id responseObj) {
+        NSLog(@"+++++%@",responseObj);
+    } failure:^(NSError *error) {
+        NSLog(@"_____%@",error.description);
+    }];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

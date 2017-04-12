@@ -60,6 +60,7 @@
 		CF1A182C1E9C70350019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A182B1E9C70350019C205 /* placehoder.txt */; };
 		CF1A182F1E9C70FF0019C205 /* DYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A182E1E9C70FF0019C205 /* DYTabBarViewController.m */; };
 		CF1A18321E9C75D00019C205 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1A18311E9C75D00019C205 /* Images.xcassets */; };
+		CF3FF7781E9DC08A00D269AB /* DyHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF7771E9DC08A00D269AB /* DyHttpTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +160,8 @@
 		CF1A18311E9C75D00019C205 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CF1A18341E9C7A7F0019C205 /* Dyzb_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dyzb_define.h; sourceTree = "<group>"; };
 		CF1A18351E9C7A900019C205 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CF3FF7761E9DC08A00D269AB /* DyHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DyHttpTool.h; sourceTree = "<group>"; };
+		CF3FF7771E9DC08A00D269AB /* DyHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DyHttpTool.m; sourceTree = "<group>"; };
 		E8079D01639B8791E8B5D19F /* Pods-Dyzb_UT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UT.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UT/Pods-Dyzb_UT.release.xcconfig"; sourceTree = "<group>"; };
 		FA8845A415EF31F8840A401B /* Pods-Dyzb_UTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UTTests/Pods-Dyzb_UTTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -625,6 +628,8 @@
 			isa = PBXGroup;
 			children = (
 				CF1A182B1E9C70350019C205 /* placehoder.txt */,
+				CF3FF7761E9DC08A00D269AB /* DyHttpTool.h */,
+				CF3FF7771E9DC08A00D269AB /* DyHttpTool.m */,
 			);
 			name = Tools;
 			path = Classes/Tools;
@@ -954,6 +959,7 @@
 			files = (
 				CF1A17821E9C640F0019C205 /* ViewController.m in Sources */,
 				CF1A18131E9C6F2B0019C205 /* FollowViewController.m in Sources */,
+				CF3FF7781E9DC08A00D269AB /* DyHttpTool.m in Sources */,
 				CF1A17FE1E9C6DC30019C205 /* BaseViewController.m in Sources */,
 				CF1A177F1E9C640F0019C205 /* AppDelegate.m in Sources */,
 				CF1A18011E9C6DE30019C205 /* BaseModel.m in Sources */,
