@@ -24,6 +24,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc {
+
+    NSLog(@"************释放类%@*********",[NSString stringWithUTF8String:object_getClassName(self)]);
+}
 /*
 #pragma mark - Navigation
 

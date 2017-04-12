@@ -9,7 +9,7 @@ pod 'SDWebImage','~>3.7.6'
 pod 'Masonry'
 pod 'AFNetworking', '~> 3.0'
 pod 'MJRefresh'
-
+pod 'WMPageController'
   # Pods for Dyzb_UT
 
   target 'Dyzb_UTTests' do
