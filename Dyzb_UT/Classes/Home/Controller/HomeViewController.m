@@ -15,10 +15,12 @@
 #import "GameViewController.h"
 #import "FunnyViewController.h"
 #import "HomeNaviView.h"
+
 @interface HomeViewController ()<HomeNaviViewDelegate>
 @property (nonatomic, strong) NSMutableArray  *viewControllers;
 @property (nonatomic, strong) NSArray  *meautitles;
 @property (nonatomic, strong) HomeNaviView  *homeCustomNavi;
+
 @end
 
 @implementation HomeViewController
@@ -94,9 +96,10 @@
     }
     return _homeCustomNavi;
 }
+
+
 #pragma mark - Datasource/delegate
 - (NSInteger)numbersOfChildControllersInPageController:(WMPageController *)pageController {
-
     return self.meautitles.count;
 }
 
@@ -104,7 +107,6 @@
     return self.viewControllers[index];
 }
 - (NSString *)pageController:(WMPageController *)pageController titleAtIndex:(NSInteger)index {
-
     return self.meautitles[index];
 }
 #pragma mark - HomeNaviDelegate/首页Navi的点击实现

@@ -40,4 +40,16 @@
 /////////////////////////////////////////////////
 // 懒加载
 #define DY_LAZY(object, assignment) (object = object ?: assignment)
+
+// contentView 里面item的尺寸
+// 视频item宽度
+#define RECOMMEND_ITEM_WIDTH ((SCREEN_WIDTH - 3 * 10) * 0.5)
+// 视频item高度
+#define RECOMMEND_ITEM_HEIGHT (RECOMMEND_ITEM_WIDTH / 16 * 9 + 20)
+// 栏目item宽度
+#define COLUMN_ITEM_WIDTH ((SCREEN_WIDTH - 10 * 4) / 3)
+// 栏目item高度
+#define COLUMN_ITEM_HEIGHT (COLUMN_ITEM_WIDTH / 3 * 4 + 20)
+// 推荐tableView行高
+#define RECOMMEND_CELL_HEIGHT (RECOMMEND_ITEM_HEIGHT * 2 + 10)
 #endif /* Dyzb_define_h */

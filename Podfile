@@ -10,6 +10,7 @@ pod 'Masonry'
 pod 'AFNetworking', '~> 3.0'
 pod 'MJRefresh'
 pod 'WMPageController'
+pod 'SDCycleScrollView','~> 1.64'
   # Pods for Dyzb_UT
 
   target 'Dyzb_UTTests' do

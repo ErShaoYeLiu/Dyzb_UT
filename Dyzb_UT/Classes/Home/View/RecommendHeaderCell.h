@@ -8,6 +8,9 @@
 
 #import "BaseTableViewCell.h"
 
+typedef void(^cycleBlock)(NSInteger index);
 @interface RecommendHeaderCell : BaseTableViewCell
 
++ (instancetype)cellWithTableview:(UITableView *)tableview;
+@property (nonatomic, copy) cycleBlock  BannerBlock;
 @end
