@@ -35,7 +35,7 @@
 
     dispatch_group_t group = dispatch_group_create();
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    //请求轮播数据
+    //请求轮播
     
     dispatch_group_enter(group);
     NSDictionary *parameters = @{@"version":@"2.480"};
