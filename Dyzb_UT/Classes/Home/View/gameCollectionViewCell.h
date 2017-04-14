@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface gameCollectionViewCell : UICollectionViewCell
-
++ (instancetype)collectionViewCellWithCollectionView:(UICollectionView *)collectionview index:(NSIndexPath *)index;
 @end

@@ -7,6 +7,12 @@
 //
 
 #import "BaseTableViewCell.h"
+
+typedef enum : NSUInteger {
+    SectionHeaderStyleHot = 0,
+    SectionHeaderStyleOther,
+} SectionHeaderType;
+
 @class RecommendTableViewCell;
 
 @protocol RecommendTableViewCellDelegate <NSObject>
@@ -17,6 +23,7 @@
 @end
 @interface RecommendTableViewCell : BaseTableViewCell
 @property (nonatomic, weak) id<RecommendTableViewCellDelegate> delegate;
+@property (nonatomic, assign) SectionHeaderType  setionType;
 + (instancetype)cellWithTableview:(UITableView *)tableview;
 
 @end

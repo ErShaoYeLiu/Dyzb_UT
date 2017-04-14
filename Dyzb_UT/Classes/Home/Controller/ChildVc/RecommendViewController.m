@@ -65,6 +65,11 @@
     }else {
     
         RecommendTableViewCell *cell = [RecommendTableViewCell cellWithTableview:tableView];
+        if (indexPath.section == 1) {
+            cell.setionType = SectionHeaderStyleHot;
+        }else {
+            cell.setionType = SectionHeaderStyleOther;
+        }
         cell.delegate = self;
         return cell;
     }
@@ -72,14 +77,16 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.section == 0) {
         return kH(215.5);
-    }else {
-        return RECOMMEND_CELL_HEIGHT;
+    }else if(indexPath.section == 1){
+        return RECOMMEND_CELL_HEIGHT * 2 + kH(10) ;
     
+    } else {
+        return RECOMMEND_CELL_HEIGHT;
     }
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     if (section == 0) {
-        return 1;
+        return 0.01;
     }else {
     return kH(44);
     }

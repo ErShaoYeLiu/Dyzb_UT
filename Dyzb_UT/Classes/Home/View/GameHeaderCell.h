@@ -8,6 +8,14 @@
 
 #import "BaseTableViewCell.h"
 
-@interface GameHeaderCell : BaseTableViewCell
+@class GameHeaderCell;
+@protocol GameHeaderCellDelefgate <NSObject>
 
+- (void)gameHeaderCell:(GameHeaderCell *)gameHeaderCell didSelectItemAtIndexPath:(NSIndexPath *)indexPath;
+
+@end
+
+@interface GameHeaderCell : BaseTableViewCell
+@property (nonatomic, assign) id<GameHeaderCellDelefgate>  delegate;
++(instancetype)cellWithTableview:(UITableView *)tableview;
 @end

@@ -41,6 +41,11 @@ static BOOL isReused = NO;
 
 }
 
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    self.recommendCollectionView.frame = CGRectMake(0, 0, SCREEN_WIDTH, self.setionType == SectionHeaderStyleHot ? RECOMMEND_CELL_HEIGHT * 2 + kH(10):RECOMMEND_CELL_HEIGHT);
+
+}
 #pragma mark - lazy load
 - (void)setupCollectionView
 {
@@ -56,7 +61,7 @@ static BOOL isReused = NO;
 }
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 4;
+    return self.setionType == SectionHeaderStyleHot?8:4;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
