@@ -10,8 +10,13 @@
 #import "RecommendHeaderCell.h"
 #import "RecommendTableViewCell.h"
 #import "SectionHeaderView.h"
+#import "recommendModel.h"
+#import "recommenBannerModel.h"
 @interface RecommendViewController ()<UITableViewDelegate,UITableViewDataSource,RecommendTableViewCellDelegate>
 @property (nonatomic, strong) UITableView  *homeTableView;
+@property (nonatomic, strong) recommendModel  *recommentHotModel;
+@property (nonatomic, strong) NSArray  *dataArray;
+@property (nonatomic, strong) NSMutableArray  *listArray;
 @end
 
 @implementation RecommendViewController
@@ -19,13 +24,66 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    _dataArray = [NSArray array];
+    _listArray = [NSMutableArray array];
     [self initializeDataSource];
     [self initializeUserInterFace];
+    
 }
 
 - (void) initializeDataSource{
 
+    dispatch_group_t group = dispatch_group_create();
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    //请求轮播数据
+    
+    dispatch_group_enter(group);
+    NSDictionary *parameters = @{@"version":@"2.480"};
+    [DyHttpTool get:URL_Home_Banner params:parameters success:^(id responseObj) {
+        
+        NSLog(@"Banner%@",[self dictionaryToJson:responseObj]);
+        self.dataArray = [recommenBannerModel mj_objectArrayWithKeyValuesArray:responseObj[@"data"]];
+        NSLog(@"Model:****%@",self.dataArray);
+        
+        for (recommenBannerModel *model in self.dataArray) {
+            [self.listArray addObject:model.pic_url];
+        }
+        dispatch_group_leave(group);
+        
+    } failure:^(NSError *error) {
+        
+        dispatch_group_leave(group);
+    }];
 
+    dispatch_group_enter(group);
+    NSString *timeStr = [NSString stringWithFormat:@"%f", (double)[[NSDate date] timeIntervalSince1970]];
+    NSDictionary *parame = @{@"time":timeStr};
+    [DyHttpTool get:URL_Home_Hot params:parame success:^(id responseObj) {
+       
+        NSLog(@"******%@******",responseObj);
+       dispatch_group_leave(group);
+    } failure:^(NSError *error) {
+        dispatch_group_leave(group);
+    }];
+    
+    
+    dispatch_group_notify(group, queue, ^{
+       
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.homeTableView reloadData];
+        });
+    });
+}
+- (NSString*)dictionaryToJson:(NSDictionary *)dic
+
+{
+    
+    NSError *parseError = nil;
+    
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:&parseError];
+    
+    return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+    
 }
 - (void) initializeUserInterFace{
 
@@ -56,6 +114,7 @@
 
     if (indexPath.section == 0) {
         RecommendHeaderCell *cell = [RecommendHeaderCell cellWithTableview:tableView];
+        [cell loadDataWithImageUrlstring:self.listArray];
         cell.BannerBlock = ^(NSInteger index){
         
             // 根据index去取数据

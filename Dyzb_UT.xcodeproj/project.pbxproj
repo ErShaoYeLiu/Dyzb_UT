@@ -75,6 +75,9 @@
 		CF3FF7851E9DCBA900D269AB /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF7841E9DCBA900D269AB /* GameViewController.m */; };
 		CF3FF7881E9DCBC400D269AB /* FunnyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF7871E9DCBC400D269AB /* FunnyViewController.m */; };
 		CF6AB4D71E9DDC8F007D744B /* HomeNaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6AB4D61E9DDC8F007D744B /* HomeNaviView.m */; };
+		CFB4D61F1EA095DE004B9D4B /* DYdataUrls.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4D61E1EA095DE004B9D4B /* DYdataUrls.m */; };
+		CFB4D6221EA099E3004B9D4B /* recommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4D6211EA099E3004B9D4B /* recommendModel.m */; };
+		CFB4D6251EA09B91004B9D4B /* recommenBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4D6241EA09B91004B9D4B /* recommenBannerModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -204,6 +207,12 @@
 		CF3FF7871E9DCBC400D269AB /* FunnyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnyViewController.m; sourceTree = "<group>"; };
 		CF6AB4D51E9DDC8F007D744B /* HomeNaviView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeNaviView.h; sourceTree = "<group>"; };
 		CF6AB4D61E9DDC8F007D744B /* HomeNaviView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeNaviView.m; sourceTree = "<group>"; };
+		CFB4D61D1EA095DE004B9D4B /* DYdataUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYdataUrls.h; sourceTree = "<group>"; };
+		CFB4D61E1EA095DE004B9D4B /* DYdataUrls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYdataUrls.m; sourceTree = "<group>"; };
+		CFB4D6201EA099E3004B9D4B /* recommendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recommendModel.h; sourceTree = "<group>"; };
+		CFB4D6211EA099E3004B9D4B /* recommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recommendModel.m; sourceTree = "<group>"; };
+		CFB4D6231EA09B91004B9D4B /* recommenBannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recommenBannerModel.h; sourceTree = "<group>"; };
+		CFB4D6241EA09B91004B9D4B /* recommenBannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recommenBannerModel.m; sourceTree = "<group>"; };
 		E8079D01639B8791E8B5D19F /* Pods-Dyzb_UT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UT.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UT/Pods-Dyzb_UT.release.xcconfig"; sourceTree = "<group>"; };
 		FA8845A415EF31F8840A401B /* Pods-Dyzb_UTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UTTests/Pods-Dyzb_UTTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -647,6 +656,10 @@
 			isa = PBXGroup;
 			children = (
 				CF1A181E1E9C6F8E0019C205 /* placehoder.txt */,
+				CFB4D6201EA099E3004B9D4B /* recommendModel.h */,
+				CFB4D6211EA099E3004B9D4B /* recommendModel.m */,
+				CFB4D6231EA09B91004B9D4B /* recommenBannerModel.h */,
+				CFB4D6241EA09B91004B9D4B /* recommenBannerModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -701,6 +714,8 @@
 			children = (
 				CF1A18341E9C7A7F0019C205 /* Dyzb_define.h */,
 				CF1A18351E9C7A900019C205 /* PrefixHeader.pch */,
+				CFB4D61D1EA095DE004B9D4B /* DYdataUrls.h */,
+				CFB4D61E1EA095DE004B9D4B /* DYdataUrls.m */,
 			);
 			path = Dyzb;
 			sourceTree = "<group>";
@@ -1048,14 +1063,17 @@
 				CF1A180A1E9C6E2C0019C205 /* BaseTableViewCell.m in Sources */,
 				CF1A18161E9C6F3D0019C205 /* LiveViewController.m in Sources */,
 				CF1ACF8C1E9F174100FC3245 /* RecommendCollectionViewCell.m in Sources */,
+				CFB4D61F1EA095DE004B9D4B /* DYdataUrls.m in Sources */,
 				CF1128ED1E9E2A45002E17F2 /* RecommendHeaderCell.m in Sources */,
 				CF3FF77F1E9DCB1000D269AB /* HandGameViewController.m in Sources */,
 				CF3FF7881E9DCBC400D269AB /* FunnyViewController.m in Sources */,
 				CF1A180D1E9C6E610019C205 /* BaseUICoccectionView.m in Sources */,
+				CFB4D6251EA09B91004B9D4B /* recommenBannerModel.m in Sources */,
 				CF1A177C1E9C640F0019C205 /* main.m in Sources */,
 				CF1ACF861E9F120300FC3245 /* RecommendTableViewCell.m in Sources */,
 				CF1A18101E9C6EBC0019C205 /* FindViewController.m in Sources */,
 				CF1ACF8F1E9F535F00FC3245 /* SectionHeaderView.m in Sources */,
+				CFB4D6221EA099E3004B9D4B /* recommendModel.m in Sources */,
 				CF1ACF981E9F7AFD00FC3245 /* gamePageCollectionViewFlowLayout.m in Sources */,
 				CF3FF77C1E9DCA6E00D269AB /* RecommendViewController.m in Sources */,
 				CF1A18041E9C6E010019C205 /* BaseView.m in Sources */,

@@ -59,7 +59,11 @@
     }
 
 }
+- (void)loadDataWithImageUrlstring:(NSArray *)images {
 
+    self.cycleScrollView.imageURLStringsGroup = images;
+
+}
 - (SDCycleScrollView *)cycleScrollView {
 
     return DY_LAZY(_cycleScrollView, ({
@@ -67,6 +71,7 @@
         SDCycleScrollView *cyclescrollview = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, kSUBSCREEN_H(150)) shouldInfiniteLoop:YES imageNamesGroup:nil];
         cyclescrollview.delegate = self;
         cyclescrollview.placeholderImage = [UIImage imageNamed:@"dyla_视频封面_placeholder"];
+        cyclescrollview.currentPageDotColor = [UIColor orangeColor];
         cyclescrollview.bannerImageViewContentMode = UIViewContentModeScaleToFill;
         cyclescrollview.pageControlStyle = SDCycleScrollViewPageContolStyleAnimated;
         cyclescrollview.pageControlStyle = SDCycleScrollViewPageContolAlimentRight;

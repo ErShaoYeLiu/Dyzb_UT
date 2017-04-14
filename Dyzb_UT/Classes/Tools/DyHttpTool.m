@@ -26,6 +26,8 @@
     [manager GET:url parameters:params progress:^(NSProgress * _Nonnull uploadProgress) {
         
     }success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+       
+        NSLog(@"json%@",[responseObject class]);
         if (success) {
             success(responseObject);
         }

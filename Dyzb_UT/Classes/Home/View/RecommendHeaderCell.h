@@ -12,5 +12,6 @@ typedef void(^cycleBlock)(NSInteger index);
 @interface RecommendHeaderCell : BaseTableViewCell
 
 + (instancetype)cellWithTableview:(UITableView *)tableview;
+- (void)loadDataWithImageUrlstring:(NSArray *)images;
 @property (nonatomic, copy) cycleBlock  BannerBlock;
 @end
