@@ -66,6 +66,8 @@
 		CF1ACF8C1E9F174100FC3245 /* RecommendCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1ACF8B1E9F174100FC3245 /* RecommendCollectionViewCell.m */; };
 		CF1ACF8F1E9F535F00FC3245 /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1ACF8E1E9F535F00FC3245 /* SectionHeaderView.m */; };
 		CF1ACF921E9F6EDF00FC3245 /* GameHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1ACF911E9F6EDF00FC3245 /* GameHeaderCell.m */; };
+		CF1ACF951E9F763100FC3245 /* gameCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1ACF941E9F763100FC3245 /* gameCollectionViewCell.m */; };
+		CF1ACF981E9F7AFD00FC3245 /* gamePageCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1ACF971E9F7AFD00FC3245 /* gamePageCollectionViewFlowLayout.m */; };
 		CF3FF7781E9DC08A00D269AB /* DyHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF7771E9DC08A00D269AB /* DyHttpTool.m */; };
 		CF3FF77C1E9DCA6E00D269AB /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF77B1E9DCA6E00D269AB /* RecommendViewController.m */; };
 		CF3FF77F1E9DCB1000D269AB /* HandGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF77E1E9DCB1000D269AB /* HandGameViewController.m */; };
@@ -184,6 +186,10 @@
 		CF1ACF8E1E9F535F00FC3245 /* SectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderView.m; sourceTree = "<group>"; };
 		CF1ACF901E9F6EDF00FC3245 /* GameHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameHeaderCell.h; sourceTree = "<group>"; };
 		CF1ACF911E9F6EDF00FC3245 /* GameHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameHeaderCell.m; sourceTree = "<group>"; };
+		CF1ACF931E9F763100FC3245 /* gameCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameCollectionViewCell.h; sourceTree = "<group>"; };
+		CF1ACF941E9F763100FC3245 /* gameCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameCollectionViewCell.m; sourceTree = "<group>"; };
+		CF1ACF961E9F7AFD00FC3245 /* gamePageCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gamePageCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		CF1ACF971E9F7AFD00FC3245 /* gamePageCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gamePageCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		CF3FF7761E9DC08A00D269AB /* DyHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DyHttpTool.h; sourceTree = "<group>"; };
 		CF3FF7771E9DC08A00D269AB /* DyHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DyHttpTool.m; sourceTree = "<group>"; };
 		CF3FF77A1E9DCA6E00D269AB /* RecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
@@ -661,6 +667,8 @@
 				CF1ACF8E1E9F535F00FC3245 /* SectionHeaderView.m */,
 				CF1ACF901E9F6EDF00FC3245 /* GameHeaderCell.h */,
 				CF1ACF911E9F6EDF00FC3245 /* GameHeaderCell.m */,
+				CF1ACF931E9F763100FC3245 /* gameCollectionViewCell.h */,
+				CF1ACF941E9F763100FC3245 /* gameCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -671,6 +679,8 @@
 				CF1A18221E9C6F8E0019C205 /* placehoder.txt */,
 				CF1ACF871E9F15CE00FC3245 /* RecommendCollectionFlowLayout.h */,
 				CF1ACF881E9F15CE00FC3245 /* RecommendCollectionFlowLayout.m */,
+				CF1ACF961E9F7AFD00FC3245 /* gamePageCollectionViewFlowLayout.h */,
+				CF1ACF971E9F7AFD00FC3245 /* gamePageCollectionViewFlowLayout.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -1046,9 +1056,11 @@
 				CF1ACF861E9F120300FC3245 /* RecommendTableViewCell.m in Sources */,
 				CF1A18101E9C6EBC0019C205 /* FindViewController.m in Sources */,
 				CF1ACF8F1E9F535F00FC3245 /* SectionHeaderView.m in Sources */,
+				CF1ACF981E9F7AFD00FC3245 /* gamePageCollectionViewFlowLayout.m in Sources */,
 				CF3FF77C1E9DCA6E00D269AB /* RecommendViewController.m in Sources */,
 				CF1A18041E9C6E010019C205 /* BaseView.m in Sources */,
 				CF1ACF891E9F15CE00FC3245 /* RecommendCollectionFlowLayout.m in Sources */,
+				CF1ACF951E9F763100FC3245 /* gameCollectionViewCell.m in Sources */,
 				CF1A182F1E9C70FF0019C205 /* DYTabBarViewController.m in Sources */,
 				CF3FF7821E9DCB3D00D269AB /* AmuseViewController.m in Sources */,
 				CF1A18191E9C6F4D0019C205 /* UserViewController.m in Sources */,
