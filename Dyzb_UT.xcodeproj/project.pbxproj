@@ -10,6 +10,7 @@
 		561FCE78631D6610477D91C3 /* libPods-Dyzb_UTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0873B0FA5BDD2C2B1963E54D /* libPods-Dyzb_UTUITests.a */; };
 		73AD14BE62FABE818D1FC502 /* libPods-Dyzb_UT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */; };
 		8DF9A1557D6970A19FF35C2C /* libPods-Dyzb_UTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3838D0A6B133998715B895 /* libPods-Dyzb_UTTests.a */; };
+		9025840F1EA4A48400457C56 /* FindFishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9025840E1EA4A48400457C56 /* FindFishView.m */; };
 		905A74401EA45CFE001D11C4 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A180F1E9C6EBC0019C205 /* FindViewController.m */; };
 		905A74411EA45D39001D11C4 /* FollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18121E9C6F2B0019C205 /* FollowViewController.m */; };
 		906299FC1EA49E550090EF38 /* FindFishController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906299FB1EA49E550090EF38 /* FindFishController.m */; };
@@ -115,6 +116,8 @@
 		5F3838D0A6B133998715B895 /* libPods-Dyzb_UTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dyzb_UTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7404691FDA7902697979CE46 /* Pods-Dyzb_UT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UT/Pods-Dyzb_UT.debug.xcconfig"; sourceTree = "<group>"; };
 		7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dyzb_UT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9025840D1EA4A48400457C56 /* FindFishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFishView.h; sourceTree = "<group>"; };
+		9025840E1EA4A48400457C56 /* FindFishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFishView.m; sourceTree = "<group>"; };
 		906299FA1EA49E550090EF38 /* FindFishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFishController.h; sourceTree = "<group>"; };
 		906299FB1EA49E550090EF38 /* FindFishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFishController.m; sourceTree = "<group>"; };
 		9066F96D1E9DF92000AAD4F1 /* BaseItemCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseItemCellModel.h; sourceTree = "<group>"; };
@@ -548,6 +551,8 @@
 				90E7DEF11E9F1BA500652574 /* FindCollectionViewCell.m */,
 				9066F97D1E9E1F3700AAD4F1 /* FindView.h */,
 				9066F97E1E9E1F3700AAD4F1 /* FindView.m */,
+				9025840D1EA4A48400457C56 /* FindFishView.h */,
+				9025840E1EA4A48400457C56 /* FindFishView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1147,6 +1152,7 @@
 				CF1A177C1E9C640F0019C205 /* main.m in Sources */,
 				CF1ACF861E9F120300FC3245 /* RecommendTableViewCell.m in Sources */,
 				CF1ACF8F1E9F535F00FC3245 /* SectionHeaderView.m in Sources */,
+				9025840F1EA4A48400457C56 /* FindFishView.m in Sources */,
 				CFB4D6221EA099E3004B9D4B /* recommendModel.m in Sources */,
 				CF1ACF981E9F7AFD00FC3245 /* gamePageCollectionViewFlowLayout.m in Sources */,
 				CF3FF77C1E9DCA6E00D269AB /* RecommendViewController.m in Sources */,
