@@ -10,23 +10,6 @@
 		561FCE78631D6610477D91C3 /* libPods-Dyzb_UTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0873B0FA5BDD2C2B1963E54D /* libPods-Dyzb_UTUITests.a */; };
 		73AD14BE62FABE818D1FC502 /* libPods-Dyzb_UT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */; };
 		8DF9A1557D6970A19FF35C2C /* libPods-Dyzb_UTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3838D0A6B133998715B895 /* libPods-Dyzb_UTTests.a */; };
-
-
-
-		905A74401EA45CFE001D11C4 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A180F1E9C6EBC0019C205 /* FindViewController.m */; };
-		905A74411EA45D39001D11C4 /* FollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18121E9C6F2B0019C205 /* FollowViewController.m */; };
-		906299FC1EA49E550090EF38 /* FindFishController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906299FB1EA49E550090EF38 /* FindFishController.m */; };
-		9066F96F1E9DF92000AAD4F1 /* BaseItemCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9066F96E1E9DF92000AAD4F1 /* BaseItemCellModel.m */; };
-		9066F9731E9DFACF00AAD4F1 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9066F9721E9DFACF00AAD4F1 /* BaseViewModel.m */; };
-		9066F9761E9E001600AAD4F1 /* FindViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9066F9751E9E001600AAD4F1 /* FindViewModel.m */; };
-		9066F9791E9E01AF00AAD4F1 /* FindCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9066F9781E9E01AF00AAD4F1 /* FindCellModel.m */; };
-		9066F97C1E9E01EC00AAD4F1 /* FindTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9066F97B1E9E01EC00AAD4F1 /* FindTableViewCell.m */; };
-		9066F97F1E9E1F3700AAD4F1 /* FindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9066F97E1E9E1F3700AAD4F1 /* FindView.m */; };
-		906AA7371EA0AA9200AA36D3 /* FindYnamicCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 906AA7361EA0AA9200AA36D3 /* FindYnamicCollectionCell.m */; };
-		90E7DEF21E9F1BA500652574 /* FindCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7DEF11E9F1BA500652574 /* FindCollectionViewCell.m */; };
-		90E7DEFA1E9F64B600652574 /* Find.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E7DEF91E9F64B600652574 /* Find.xcassets */; };
-		90E7DEFD1E9F7C2D00652574 /* FinddYnamicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7DEFC1E9F7C2D00652574 /* FinddYnamicCell.m */; };
-
 		CF0DB9ED1EA4A2F20092CCAE /* FindFishController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DB9CE1EA4A2F20092CCAE /* FindFishController.m */; };
 		CF0DB9EE1EA4A2F20092CCAE /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DB9D01EA4A2F20092CCAE /* FindViewController.m */; };
 		CF0DB9EF1EA4A2F20092CCAE /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF0DB9D11EA4A2F20092CCAE /* placehoder.txt */; };
@@ -43,7 +26,6 @@
 		CF0DB9FA1EA4A2F20092CCAE /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DB9E91EA4A2F20092CCAE /* BaseViewModel.m */; };
 		CF0DB9FB1EA4A2F20092CCAE /* FindViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DB9EB1EA4A2F20092CCAE /* FindViewModel.m */; };
 		CF0DB9FC1EA4A2F20092CCAE /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF0DB9EC1EA4A2F20092CCAE /* placehoder.txt */; };
-
 		CF1128ED1E9E2A45002E17F2 /* RecommendHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1128EC1E9E2A45002E17F2 /* RecommendHeaderCell.m */; };
 		CF1A177C1E9C640F0019C205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A177B1E9C640F0019C205 /* main.m */; };
 		CF1A177F1E9C640F0019C205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A177E1E9C640F0019C205 /* AppDelegate.m */; };
@@ -134,32 +116,6 @@
 		5F3838D0A6B133998715B895 /* libPods-Dyzb_UTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dyzb_UTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7404691FDA7902697979CE46 /* Pods-Dyzb_UT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UT/Pods-Dyzb_UT.debug.xcconfig"; sourceTree = "<group>"; };
 		7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dyzb_UT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-
-
-
-		906299FA1EA49E550090EF38 /* FindFishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFishController.h; sourceTree = "<group>"; };
-		906299FB1EA49E550090EF38 /* FindFishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFishController.m; sourceTree = "<group>"; };
-		9066F96D1E9DF92000AAD4F1 /* BaseItemCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseItemCellModel.h; sourceTree = "<group>"; };
-		9066F96E1E9DF92000AAD4F1 /* BaseItemCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseItemCellModel.m; sourceTree = "<group>"; };
-		9066F9711E9DFACF00AAD4F1 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
-		9066F9721E9DFACF00AAD4F1 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
-		9066F9741E9E001600AAD4F1 /* FindViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewModel.h; sourceTree = "<group>"; };
-		9066F9751E9E001600AAD4F1 /* FindViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewModel.m; sourceTree = "<group>"; };
-		9066F9771E9E01AF00AAD4F1 /* FindCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCellModel.h; sourceTree = "<group>"; };
-		9066F9781E9E01AF00AAD4F1 /* FindCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCellModel.m; sourceTree = "<group>"; };
-		9066F97A1E9E01EC00AAD4F1 /* FindTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindTableViewCell.h; sourceTree = "<group>"; };
-		9066F97B1E9E01EC00AAD4F1 /* FindTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindTableViewCell.m; sourceTree = "<group>"; };
-		9066F97D1E9E1F3700AAD4F1 /* FindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindView.h; sourceTree = "<group>"; };
-		9066F97E1E9E1F3700AAD4F1 /* FindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindView.m; sourceTree = "<group>"; };
-		906AA7351EA0AA9200AA36D3 /* FindYnamicCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindYnamicCollectionCell.h; sourceTree = "<group>"; };
-		906AA7361EA0AA9200AA36D3 /* FindYnamicCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindYnamicCollectionCell.m; sourceTree = "<group>"; };
-		90E7DEF01E9F1BA500652574 /* FindCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCollectionViewCell.h; sourceTree = "<group>"; };
-		90E7DEF11E9F1BA500652574 /* FindCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCollectionViewCell.m; sourceTree = "<group>"; };
-		90E7DEF91E9F64B600652574 /* Find.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Find.xcassets; sourceTree = "<group>"; };
-		90E7DEFB1E9F7C2D00652574 /* FinddYnamicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinddYnamicCell.h; sourceTree = "<group>"; };
-		90E7DEFC1E9F7C2D00652574 /* FinddYnamicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinddYnamicCell.m; sourceTree = "<group>"; };
-
-
 		CF0DB9CD1EA4A2F20092CCAE /* FindFishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFishController.h; sourceTree = "<group>"; };
 		CF0DB9CE1EA4A2F20092CCAE /* FindFishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFishController.m; sourceTree = "<group>"; };
 		CF0DB9CF1EA4A2F20092CCAE /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
@@ -187,7 +143,6 @@
 		CF0DB9EA1EA4A2F20092CCAE /* FindViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewModel.h; sourceTree = "<group>"; };
 		CF0DB9EB1EA4A2F20092CCAE /* FindViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewModel.m; sourceTree = "<group>"; };
 		CF0DB9EC1EA4A2F20092CCAE /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
-
 		CF1128EB1E9E2A45002E17F2 /* RecommendHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendHeaderCell.h; sourceTree = "<group>"; };
 		CF1128EC1E9E2A45002E17F2 /* RecommendHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendHeaderCell.m; sourceTree = "<group>"; };
 		CF1A17771E9C640F0019C205 /* Dyzb_UT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyzb_UT.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -609,55 +564,6 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-
-		CF1A17C01E9C6A840019C205 /* Find */ = {
-			isa = PBXGroup;
-			children = (
-				CF1A17C11E9C6A840019C205 /* Controller */,
-				CF1A17C31E9C6A840019C205 /* Model */,
-				CF1A17C51E9C6A840019C205 /* View */,
-				CF1A17C71E9C6A850019C205 /* ViewModel */,
-			);
-			path = Find;
-			sourceTree = "<group>";
-		};
-		CF1A17C11E9C6A840019C205 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				CF1A17C21E9C6A840019C205 /* placehoder.txt */,
-				CF1A180E1E9C6EBC0019C205 /* FindViewController.h */,
-				CF1A180F1E9C6EBC0019C205 /* FindViewController.m */,
-				906299FA1EA49E550090EF38 /* FindFishController.h */,
-				906299FB1EA49E550090EF38 /* FindFishController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CF1A17C31E9C6A840019C205 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CF1A17C41E9C6A840019C205 /* placehoder.txt */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CF1A17C51E9C6A840019C205 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CF1A17C61E9C6A850019C205 /* placehoder.txt */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CF1A17C71E9C6A850019C205 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				CF1A17C81E9C6A850019C205 /* placehoder.txt */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-
 		CF1A17C91E9C6A850019C205 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
@@ -1254,7 +1160,6 @@
 				CF0DB9F81EA4A2F20092CCAE /* FindYnamicCollectionCell.m in Sources */,
 				CF1ACF951E9F763100FC3245 /* gameCollectionViewCell.m in Sources */,
 				CF1A182F1E9C70FF0019C205 /* DYTabBarViewController.m in Sources */,
-				906299FC1EA49E550090EF38 /* FindFishController.m in Sources */,
 				CF3FF7821E9DCB3D00D269AB /* AmuseViewController.m in Sources */,
 				CF1A18191E9C6F4D0019C205 /* UserViewController.m in Sources */,
 				CF1A18071E9C6E1C0019C205 /* BaseTableView.m in Sources */,
