@@ -29,6 +29,7 @@
 {
     self = [super init];
     if (self) {
+       // CGFloat
         self.titleSizeNormal = 15;
         self.titleSizeSelected = 15;
         self.menuViewStyle = WMMenuViewStyleLine;
