@@ -108,6 +108,15 @@
     
 }
 
+- (void)initDataWithModel:(recommendModel *)model {
+
+    self.nameLable.text = model.nickname;
+    self.onlineLable.text = [NSString stringWithFormat:@"%ld",model.online];
+    self.contentLable.text = model.room_name;
+    [self.recommendImageView sd_setImageWithURL:[NSURL URLWithString:model.vertical_src] placeholderImage:[UIImage imageNamed:@"dyla_视频封面_placeholder"]];
+    
+
+}
 - (void)layoutSubviews {
 
     [super layoutSubviews];

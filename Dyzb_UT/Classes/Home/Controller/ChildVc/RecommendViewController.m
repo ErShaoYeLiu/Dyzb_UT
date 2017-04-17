@@ -17,6 +17,7 @@
 @property (nonatomic, strong) recommendModel  *recommentHotModel;
 @property (nonatomic, strong) NSArray  *dataArray;
 @property (nonatomic, strong) NSMutableArray  *listArray;
+@property (nonatomic, strong) NSArray  *home_Hot_Array;
 @end
 
 @implementation RecommendViewController
@@ -26,6 +27,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     _dataArray = [NSArray array];
     _listArray = [NSMutableArray array];
+    _home_Hot_Array = [NSArray array];
     [self initializeDataSource];
     [self initializeUserInterFace];
     
@@ -60,6 +62,8 @@
     NSDictionary *parame = @{@"time":timeStr};
     [DyHttpTool get:URL_Home_Hot params:parame success:^(id responseObj) {
        
+        self.home_Hot_Array = [recommendModel mj_objectArrayWithKeyValuesArray:responseObj[@"data"]];
+        
        NSLog(@"*************%@",[self dictionaryToJson:responseObj]);
        dispatch_group_leave(group);
     } failure:^(NSError *error) {
@@ -126,6 +130,10 @@
         RecommendTableViewCell *cell = [RecommendTableViewCell cellWithTableview:tableView];
         if (indexPath.section == 1) {
             cell.setionType = SectionHeaderStyleHot;
+            if (self.home_Hot_Array.count > 0) {
+                
+                cell.modelWithTable = self.home_Hot_Array[indexPath.row];
+            }
         }else {
             cell.setionType = SectionHeaderStyleOther;
         }

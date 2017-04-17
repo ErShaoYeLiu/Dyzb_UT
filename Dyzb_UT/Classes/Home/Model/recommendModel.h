@@ -12,7 +12,7 @@
 
 @property (nonatomic, assign) NSInteger  room_id;
 @property (nonatomic, strong) NSString  *vertical_src;
-@property (nonatomic, assign) NSInteger  *isVertical;
+@property (nonatomic, assign) NSInteger  *isVertical;// 0: 电脑直播 1: 手机直播
 @property (nonatomic, strong) NSString  *room_name;
 @property (nonatomic, strong) NSString  *nickname;
 @property (nonatomic, assign) NSInteger  online;

@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "recommendModel.h"
 @interface RecommendCollectionViewCell : UICollectionViewCell
 + (instancetype)collectionViewCellWithCollectionView:(UICollectionView *)collectionview index:(NSIndexPath *)index;
+
+- (void)initDataWithModel:(recommendModel *)model ;
 @end

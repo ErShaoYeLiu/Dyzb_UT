@@ -7,7 +7,7 @@
 //
 
 #import "BaseTableViewCell.h"
-
+#import "recommendModel.h"
 typedef enum : NSUInteger {
     SectionHeaderStyleHot = 0,
     SectionHeaderStyleOther,
@@ -24,6 +24,7 @@ typedef enum : NSUInteger {
 @interface RecommendTableViewCell : BaseTableViewCell
 @property (nonatomic, weak) id<RecommendTableViewCellDelegate> delegate;
 @property (nonatomic, assign) SectionHeaderType  setionType;
+@property (nonatomic, strong) recommendModel  *modelWithTable;
 + (instancetype)cellWithTableview:(UITableView *)tableview;
 
 @end
