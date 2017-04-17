@@ -13,6 +13,8 @@
 #import "FindViewModel.h"
 #import "FindTableViewCell.h"
 
+#import "FinddYnamicCell.h"
+
 #import "Masonry.h"
 
 @interface FindViewController ()<UITableViewDataSource,UITableViewDelegate>
@@ -78,39 +80,66 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 2;
+    return 3;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    FindTableViewCell *cell = [_tableView dequeueReusableCellWithIdentifier:@"cell"];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    
     
     if (indexPath.row == 0)
     {
-        cell = [[FindTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+        FindTableViewCell *cell = [_tableView dequeueReusableCellWithIdentifier:@"cell"];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        
+        if (!cell) {
+            
+            cell = [[FindTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+        }
+        
         cell.titleArr = _titleArr;
         cell.imageArr = _imageArr;
         cell.isShow = NO;
+        return cell;
     }
     else if (indexPath.row == 1)
     {
+        FindTableViewCell *cell = [_tableView dequeueReusableCellWithIdentifier:@"cell"];
+        if (!cell) {
+            
+            cell = [[FindTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+        }
+        
         cell = [[FindTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
 //        cell.titleStr = @"游戏中心";
         cell.titleArr = _titleArr;
         cell.imageArr = _imageArr;
         cell.isShow = YES;
+        return cell;
+    }else{
+        
+        FinddYnamicCell *cell = [_tableView dequeueReusableCellWithIdentifier:@"cell"];
+        if (!cell) {
+            
+            cell = [[FinddYnamicCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+        }
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        
+        return cell;
     }
     
-    return cell;
+    
     
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
         return 120;
+    }else if (indexPath.row == 1)
+    {
+        return 150;
     }
-    return 150;
+    return 350;
 }
 
 @end

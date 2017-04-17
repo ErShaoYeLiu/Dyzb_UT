@@ -23,7 +23,7 @@
 //图片显示
 @property (nonatomic,strong) UICollectionView *collectionView;
 //标签
-@property (nonatomic,strong) UILabel *liveNameLabel;
+@property (nonatomic,strong) UIButton *liveNameButton;
 //关注
 @property (nonatomic,strong) UIButton *focusButton;
 
@@ -33,6 +33,8 @@
 @property (nonatomic,strong) UIButton *commentsButton;
 //点赞
 @property (nonatomic,strong) UIButton *praiseButton;
+
+
 
 
 @end

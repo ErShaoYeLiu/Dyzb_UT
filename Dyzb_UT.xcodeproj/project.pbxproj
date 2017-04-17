@@ -16,6 +16,7 @@
 		9066F9791E9E01AF00AAD4F1 /* FindCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9066F9781E9E01AF00AAD4F1 /* FindCellModel.m */; };
 		9066F97C1E9E01EC00AAD4F1 /* FindTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9066F97B1E9E01EC00AAD4F1 /* FindTableViewCell.m */; };
 		9066F97F1E9E1F3700AAD4F1 /* FindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9066F97E1E9E1F3700AAD4F1 /* FindView.m */; };
+		906AA7371EA0AA9200AA36D3 /* FindYnamicCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 906AA7361EA0AA9200AA36D3 /* FindYnamicCollectionCell.m */; };
 		90E7DEF21E9F1BA500652574 /* FindCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7DEF11E9F1BA500652574 /* FindCollectionViewCell.m */; };
 		90E7DEFA1E9F64B600652574 /* Find.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E7DEF91E9F64B600652574 /* Find.xcassets */; };
 		90E7DEFD1E9F7C2D00652574 /* FinddYnamicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7DEFC1E9F7C2D00652574 /* FinddYnamicCell.m */; };
@@ -108,6 +109,8 @@
 		9066F97B1E9E01EC00AAD4F1 /* FindTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindTableViewCell.m; sourceTree = "<group>"; };
 		9066F97D1E9E1F3700AAD4F1 /* FindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindView.h; sourceTree = "<group>"; };
 		9066F97E1E9E1F3700AAD4F1 /* FindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindView.m; sourceTree = "<group>"; };
+		906AA7351EA0AA9200AA36D3 /* FindYnamicCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindYnamicCollectionCell.h; sourceTree = "<group>"; };
+		906AA7361EA0AA9200AA36D3 /* FindYnamicCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindYnamicCollectionCell.m; sourceTree = "<group>"; };
 		90E7DEF01E9F1BA500652574 /* FindCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCollectionViewCell.h; sourceTree = "<group>"; };
 		90E7DEF11E9F1BA500652574 /* FindCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCollectionViewCell.m; sourceTree = "<group>"; };
 		90E7DEF91E9F64B600652574 /* Find.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Find.xcassets; sourceTree = "<group>"; };
@@ -481,6 +484,8 @@
 				9066F97B1E9E01EC00AAD4F1 /* FindTableViewCell.m */,
 				90E7DEFB1E9F7C2D00652574 /* FinddYnamicCell.h */,
 				90E7DEFC1E9F7C2D00652574 /* FinddYnamicCell.m */,
+				906AA7351EA0AA9200AA36D3 /* FindYnamicCollectionCell.h */,
+				906AA7361EA0AA9200AA36D3 /* FindYnamicCollectionCell.m */,
 				90E7DEF01E9F1BA500652574 /* FindCollectionViewCell.h */,
 				90E7DEF11E9F1BA500652574 /* FindCollectionViewCell.m */,
 				9066F97D1E9E1F3700AAD4F1 /* FindView.h */,
@@ -1015,6 +1020,7 @@
 				9066F97F1E9E1F3700AAD4F1 /* FindView.m in Sources */,
 				CF1A17821E9C640F0019C205 /* ViewController.m in Sources */,
 				CF1A18131E9C6F2B0019C205 /* FollowViewController.m in Sources */,
+				906AA7371EA0AA9200AA36D3 /* FindYnamicCollectionCell.m in Sources */,
 				9066F97C1E9E01EC00AAD4F1 /* FindTableViewCell.m in Sources */,
 				CF1A17FE1E9C6DC30019C205 /* BaseViewController.m in Sources */,
 				CF1A177F1E9C640F0019C205 /* AppDelegate.m in Sources */,
