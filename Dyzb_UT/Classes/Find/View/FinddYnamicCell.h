@@ -34,7 +34,8 @@
 //点赞
 @property (nonatomic,strong) UIButton *praiseButton;
 
-
+//状态图片数组
+@property (nonatomic,strong) NSArray *imageArr;
 
 
 @end

@@ -22,7 +22,8 @@
     
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-//     18049655208
+
+        _imageArr = @[@"0",@"2",@"3",@"4"];
         
         [self creatUI];
 //        self.backgroundColor = [UIColor grayColor];
@@ -35,17 +36,15 @@
     _headImageView = [UIImageView new];
     _headImageView.layer.masksToBounds = YES;
     _headImageView.layer.cornerRadius = 20;
-    _headImageView.backgroundColor = [UIColor redColor];
+//    _headImageView.backgroundColor = [UIColor redColor];
+    _headImageView.image = [UIImage imageNamed:@"0"];
     [self.contentView addSubview:_headImageView];
     
     //昵称
     _nameLabel = [UILabel new];
-    
     _nameLabel.text = @"Miss";
-    
-    _nameLabel.layer.borderWidth = 1.0f;
-    _nameLabel.layer.borderColor = [UIColor redColor].CGColor;
-    
+//    _nameLabel.layer.borderWidth = 1.0f;
+//    _nameLabel.layer.borderColor = [UIColor redColor].CGColor;
     [self.contentView addSubview:_nameLabel];
     
     //性别图标
@@ -62,16 +61,13 @@
     
     //发表的状态
     _stateLabel = [UILabel new];
-    
     _stateLabel.text = @"其实你知道的烦恼会解决烦恼";
     _stateLabel.font = [UIFont systemFontOfSize:12];
    // _stateLabel.numberOfLines = 0;
     [self.contentView addSubview:_stateLabel];
 
-    
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
     layout.scrollDirection = UICollectionViewScrollDirectionVertical;
-    
     //图片
     _collectionView = [[UICollectionView alloc]initWithFrame:CGRectZero collectionViewLayout:layout];
     _collectionView.delegate = self;
@@ -83,10 +79,8 @@
     
     //名字 点击
 //    _liveNameButton = [UIButton new];
-//    
 //    [_liveNameButton setTitle:@"Miss" forState:UIControlStateNormal];
 //    [_liveNameButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    
     _liveNameButton =[self withTitle:@"Miss" withImageStr:nil withTitleColor:[UIColor blackColor] withFont:13 withTag:@selector(liveClcik:)];
     [self.contentView addSubview:_liveNameButton];
     
@@ -94,22 +88,18 @@
 //    _focusButton = [UIButton new];
 //    [_focusButton setTitle:@"关注" forState:UIControlStateNormal];
 //    [_focusButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    
     _focusButton = [self withTitle:@"关注" withImageStr:nil withTitleColor:[UIColor orangeColor] withFont:12 withTag:@selector(focusClcik:)];
-    
     [self.contentView addSubview:_focusButton];
     
     //分享
 //    _shareButton = [UIButton new];
 //    [_shareButton setTitle:@"分享" forState:UIControlStateNormal];
 //    [_shareButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    
     _shareButton = [self withTitle:@"分享" withImageStr:nil withTitleColor:[UIColor blackColor] withFont:12 withTag:@selector(sharClick:)];
     [self.contentView addSubview:_shareButton];
     
     //评论
     _commentsButton = [self withTitle:@"评论" withImageStr:nil withTitleColor:[UIColor blackColor] withFont:12 withTag:@selector(commentsClick:)];
-    
     [self.contentView addSubview:_commentsButton];
     
     //点赞
@@ -233,7 +223,7 @@
 #pragma collectionView 代理
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 3;
+    return _imageArr.count;
 }
 
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
@@ -243,6 +233,7 @@
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
     FindYnamicCollectionCell *cell = [_collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    cell.imageView.image = [UIImage imageNamed:_imageArr[indexPath.row]];
     
     return cell;
     

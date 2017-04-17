@@ -37,23 +37,23 @@
     return cellModel;
 }
 
-- (void)getDataSource{
-    
-    BaseSectionModel *fristSection = [BaseSectionModel new];
-    
-    NSArray *titleArr = @[@"鱼吧",@"热门视频",@"排行榜",@"热门小组"];
-    
-    NSDictionary *fristDic = @{@"titleStr":@"a"
-                               };
-    
-    
-    FindCellModel *cellModel = [self initalPersonalCenterCellModel:[self initalPersonalCenterView:fristDic] Height:100 Method:nil];
-    
-    [fristSection.items addObject:cellModel];
-    
-    NSArray *arr = @[fristSection];
-    
-    self.returnBlock(arr);
-}
+//- (void)getDataSource{
+//    
+//    BaseSectionModel *fristSection = [BaseSectionModel new];
+//    
+//    NSArray *titleArr = @[@"鱼吧",@"热门视频",@"排行榜",@"热门小组"];
+//    
+//    NSDictionary *fristDic = @{@"titleStr":@"a"
+//                               };
+//    
+//    
+//    FindCellModel *cellModel = [self initalPersonalCenterCellModel:[self initalPersonalCenterView:fristDic] Height:100 Method:nil];
+//    
+//    [fristSection.items addObject:cellModel];
+//    
+//    NSArray *arr = @[fristSection];
+//    
+//    self.returnBlock(arr);
+//}
 
 @end
