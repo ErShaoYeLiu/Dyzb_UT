@@ -9,5 +9,5 @@
 #import "BaseView.h"
 
 @interface SectionHeaderView : BaseView
-
+@property (nonatomic, strong) UILabel  *titleLabel;
 @end
