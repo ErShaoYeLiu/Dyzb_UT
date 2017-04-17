@@ -29,6 +29,7 @@
 		CF0DBA0F1EA4B9640092CCAE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A17FD1E9C6DC30019C205 /* BaseViewController.m */; };
 		CF0DBA101EA4B9810092CCAE /* FunnyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF7871E9DCBC400D269AB /* FunnyViewController.m */; };
 		CF0DBA111EA4B99E0092CCAE /* HandGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF77E1E9DCB1000D269AB /* HandGameViewController.m */; };
+		CF0DBA131EA4BA0C0092CCAE /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0DBA121EA4BA0C0092CCAE /* IJKMediaFramework.framework */; };
 		CF1128ED1E9E2A45002E17F2 /* RecommendHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1128EC1E9E2A45002E17F2 /* RecommendHeaderCell.m */; };
 		CF1A177C1E9C640F0019C205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A177B1E9C640F0019C205 /* main.m */; };
 		CF1A177F1E9C640F0019C205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A177E1E9C640F0019C205 /* AppDelegate.m */; };
@@ -183,6 +184,7 @@
 		CF0DB9EA1EA4A2F20092CCAE /* FindViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewModel.h; sourceTree = "<group>"; };
 		CF0DB9EB1EA4A2F20092CCAE /* FindViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewModel.m; sourceTree = "<group>"; };
 		CF0DB9EC1EA4A2F20092CCAE /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
+		CF0DBA121EA4BA0C0092CCAE /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		CF1128EB1E9E2A45002E17F2 /* RecommendHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendHeaderCell.h; sourceTree = "<group>"; };
 		CF1128EC1E9E2A45002E17F2 /* RecommendHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendHeaderCell.m; sourceTree = "<group>"; };
 		CF1A17771E9C640F0019C205 /* Dyzb_UT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyzb_UT.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -372,6 +374,7 @@
 				E41882A81EA48CF200B64E00 /* AVFoundation.framework in Frameworks */,
 				E41882A61EA48CE800B64E00 /* libz.tbd in Frameworks */,
 				E41882A41EA48CE000B64E00 /* libbz2.tbd in Frameworks */,
+				CF0DBA131EA4BA0C0092CCAE /* IJKMediaFramework.framework in Frameworks */,
 				73AD14BE62FABE818D1FC502 /* libPods-Dyzb_UT.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +509,7 @@
 		CF1A176E1E9C640E0019C205 = {
 			isa = PBXGroup;
 			children = (
+				CF0DBA121EA4BA0C0092CCAE /* IJKMediaFramework.framework */,
 				CF1A17791E9C640F0019C205 /* Dyzb_UT */,
 				CF1A17931E9C640F0019C205 /* Dyzb_UTTests */,
 				CF1A179E1E9C640F0019C205 /* Dyzb_UTUITests */,
