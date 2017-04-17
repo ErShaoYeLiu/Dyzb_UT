@@ -10,9 +10,8 @@
 		561FCE78631D6610477D91C3 /* libPods-Dyzb_UTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0873B0FA5BDD2C2B1963E54D /* libPods-Dyzb_UTUITests.a */; };
 		73AD14BE62FABE818D1FC502 /* libPods-Dyzb_UT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */; };
 		8DF9A1557D6970A19FF35C2C /* libPods-Dyzb_UTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3838D0A6B133998715B895 /* libPods-Dyzb_UTTests.a */; };
-
-    CF1128ED1E9E2A45002E17F2 /* RecommendHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1128EC1E9E2A45002E17F2 /* RecommendHeaderCell.m */; };
-
+		905A74401EA45CFE001D11C4 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A180F1E9C6EBC0019C205 /* FindViewController.m */; };
+		905A74411EA45D39001D11C4 /* FollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18121E9C6F2B0019C205 /* FollowViewController.m */; };
 		9066F96F1E9DF92000AAD4F1 /* BaseItemCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9066F96E1E9DF92000AAD4F1 /* BaseItemCellModel.m */; };
 		9066F9731E9DFACF00AAD4F1 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9066F9721E9DFACF00AAD4F1 /* BaseViewModel.m */; };
 		9066F9761E9E001600AAD4F1 /* FindViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9066F9751E9E001600AAD4F1 /* FindViewModel.m */; };
@@ -23,10 +22,9 @@
 		90E7DEF21E9F1BA500652574 /* FindCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7DEF11E9F1BA500652574 /* FindCollectionViewCell.m */; };
 		90E7DEFA1E9F64B600652574 /* Find.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E7DEF91E9F64B600652574 /* Find.xcassets */; };
 		90E7DEFD1E9F7C2D00652574 /* FinddYnamicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7DEFC1E9F7C2D00652574 /* FinddYnamicCell.m */; };
-
+		CF1128ED1E9E2A45002E17F2 /* RecommendHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1128EC1E9E2A45002E17F2 /* RecommendHeaderCell.m */; };
 		CF1A177C1E9C640F0019C205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A177B1E9C640F0019C205 /* main.m */; };
 		CF1A177F1E9C640F0019C205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A177E1E9C640F0019C205 /* AppDelegate.m */; };
-		CF1A17821E9C640F0019C205 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A17811E9C640F0019C205 /* ViewController.m */; };
 		CF1A17851E9C640F0019C205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17831E9C640F0019C205 /* Main.storyboard */; };
 		CF1A17871E9C640F0019C205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17861E9C640F0019C205 /* Assets.xcassets */; };
 		CF1A178A1E9C640F0019C205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17881E9C640F0019C205 /* LaunchScreen.storyboard */; };
@@ -62,8 +60,6 @@
 		CF1A18071E9C6E1C0019C205 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18061E9C6E1C0019C205 /* BaseTableView.m */; };
 		CF1A180A1E9C6E2C0019C205 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18091E9C6E2C0019C205 /* BaseTableViewCell.m */; };
 		CF1A180D1E9C6E610019C205 /* BaseUICoccectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A180C1E9C6E610019C205 /* BaseUICoccectionView.m */; };
-		CF1A18101E9C6EBC0019C205 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A180F1E9C6EBC0019C205 /* FindViewController.m */; };
-		CF1A18131E9C6F2B0019C205 /* FollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18121E9C6F2B0019C205 /* FollowViewController.m */; };
 		CF1A18161E9C6F3D0019C205 /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18151E9C6F3D0019C205 /* LiveViewController.m */; };
 		CF1A18191E9C6F4D0019C205 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18181E9C6F4D0019C205 /* UserViewController.m */; };
 		CF1A18231E9C6F8E0019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A181C1E9C6F8E0019C205 /* placehoder.txt */; };
@@ -118,10 +114,6 @@
 		5F3838D0A6B133998715B895 /* libPods-Dyzb_UTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dyzb_UTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7404691FDA7902697979CE46 /* Pods-Dyzb_UT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UT/Pods-Dyzb_UT.debug.xcconfig"; sourceTree = "<group>"; };
 		7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dyzb_UT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-
-		CF1128EB1E9E2A45002E17F2 /* RecommendHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendHeaderCell.h; sourceTree = "<group>"; };
-		CF1128EC1E9E2A45002E17F2 /* RecommendHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendHeaderCell.m; sourceTree = "<group>"; };
-
 		9066F96D1E9DF92000AAD4F1 /* BaseItemCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseItemCellModel.h; sourceTree = "<group>"; };
 		9066F96E1E9DF92000AAD4F1 /* BaseItemCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseItemCellModel.m; sourceTree = "<group>"; };
 		9066F9711E9DFACF00AAD4F1 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
@@ -141,7 +133,8 @@
 		90E7DEF91E9F64B600652574 /* Find.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Find.xcassets; sourceTree = "<group>"; };
 		90E7DEFB1E9F7C2D00652574 /* FinddYnamicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinddYnamicCell.h; sourceTree = "<group>"; };
 		90E7DEFC1E9F7C2D00652574 /* FinddYnamicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinddYnamicCell.m; sourceTree = "<group>"; };
-
+		CF1128EB1E9E2A45002E17F2 /* RecommendHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendHeaderCell.h; sourceTree = "<group>"; };
+		CF1128EC1E9E2A45002E17F2 /* RecommendHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendHeaderCell.m; sourceTree = "<group>"; };
 		CF1A17771E9C640F0019C205 /* Dyzb_UT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyzb_UT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1A177B1E9C640F0019C205 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF1A177D1E9C640F0019C205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1121,18 +1114,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
+				905A74411EA45D39001D11C4 /* FollowViewController.m in Sources */,
+				905A74401EA45CFE001D11C4 /* FindViewController.m in Sources */,
 				CF3FF7851E9DCBA900D269AB /* GameViewController.m in Sources */,
-				CF1A17821E9C640F0019C205 /* ViewController.m in Sources */,
-				CF1A18131E9C6F2B0019C205 /* FollowViewController.m in Sources */,
 				CF3FF7781E9DC08A00D269AB /* DyHttpTool.m in Sources */,
-
 				9066F97F1E9E1F3700AAD4F1 /* FindView.m in Sources */,
-				CF1A17821E9C640F0019C205 /* ViewController.m in Sources */,
-				CF1A18131E9C6F2B0019C205 /* FollowViewController.m in Sources */,
 				906AA7371EA0AA9200AA36D3 /* FindYnamicCollectionCell.m in Sources */,
 				9066F97C1E9E01EC00AAD4F1 /* FindTableViewCell.m in Sources */,
-
 				CF1A17FE1E9C6DC30019C205 /* BaseViewController.m in Sources */,
 				CF6AB4D71E9DDC8F007D744B /* HomeNaviView.m in Sources */,
 				CF1ACF921E9F6EDF00FC3245 /* GameHeaderCell.m in Sources */,
@@ -1143,31 +1131,23 @@
 				90E7DEF21E9F1BA500652574 /* FindCollectionViewCell.m in Sources */,
 				CF1A180A1E9C6E2C0019C205 /* BaseTableViewCell.m in Sources */,
 				CF1A18161E9C6F3D0019C205 /* LiveViewController.m in Sources */,
-
 				CF1ACF8C1E9F174100FC3245 /* RecommendCollectionViewCell.m in Sources */,
 				CFB4D61F1EA095DE004B9D4B /* DYdataUrls.m in Sources */,
 				CF1128ED1E9E2A45002E17F2 /* RecommendHeaderCell.m in Sources */,
 				CF3FF77F1E9DCB1000D269AB /* HandGameViewController.m in Sources */,
 				CF3FF7881E9DCBC400D269AB /* FunnyViewController.m in Sources */,
-
 				90E7DEFD1E9F7C2D00652574 /* FinddYnamicCell.m in Sources */,
-
 				CF1A180D1E9C6E610019C205 /* BaseUICoccectionView.m in Sources */,
 				CFB4D6251EA09B91004B9D4B /* recommenBannerModel.m in Sources */,
 				CF1A177C1E9C640F0019C205 /* main.m in Sources */,
-
 				CF1ACF861E9F120300FC3245 /* RecommendTableViewCell.m in Sources */,
-				CF1A18101E9C6EBC0019C205 /* FindViewController.m in Sources */,
 				CF1ACF8F1E9F535F00FC3245 /* SectionHeaderView.m in Sources */,
 				CFB4D6221EA099E3004B9D4B /* recommendModel.m in Sources */,
 				CF1ACF981E9F7AFD00FC3245 /* gamePageCollectionViewFlowLayout.m in Sources */,
 				CF3FF77C1E9DCA6E00D269AB /* RecommendViewController.m in Sources */,
-
 				9066F9791E9E01AF00AAD4F1 /* FindCellModel.m in Sources */,
 				9066F96F1E9DF92000AAD4F1 /* BaseItemCellModel.m in Sources */,
-				CF1A18101E9C6EBC0019C205 /* FindViewController.m in Sources */,
 				9066F9731E9DFACF00AAD4F1 /* BaseViewModel.m in Sources */,
-
 				CF1A18041E9C6E010019C205 /* BaseView.m in Sources */,
 				CF1ACF891E9F15CE00FC3245 /* RecommendCollectionFlowLayout.m in Sources */,
 				CF1ACF951E9F763100FC3245 /* gameCollectionViewCell.m in Sources */,
