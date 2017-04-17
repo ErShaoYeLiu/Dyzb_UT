@@ -9,7 +9,7 @@
 #import "RecommendTableViewCell.h"
 #import "RecommendCollectionFlowLayout.h"
 #import "RecommendCollectionViewCell.h"
-//static BOOL isReused = NO;
+static BOOL isReused = NO;
 
 @interface RecommendTableViewCell () <UICollectionViewDataSource, UICollectionViewDelegate>
 @property (nonatomic, weak) UICollectionView *recommendCollectionView;
@@ -67,7 +67,6 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     RecommendCollectionViewCell *cell = [RecommendCollectionViewCell collectionViewCellWithCollectionView:collectionView index:indexPath];
-    [cell initDataWithModel:self.modelWithTable];
     return cell;
 }
 

@@ -7,7 +7,7 @@
 //
 
 #import "BaseViewController.h"
-#import "WMPageController.h"
-@interface LiveViewController : WMPageController
+
+@interface LiveViewController : BaseViewController
 
 @end
