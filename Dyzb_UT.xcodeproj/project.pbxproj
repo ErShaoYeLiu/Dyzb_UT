@@ -26,6 +26,9 @@
 		CF0DB9FA1EA4A2F20092CCAE /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DB9E91EA4A2F20092CCAE /* BaseViewModel.m */; };
 		CF0DB9FB1EA4A2F20092CCAE /* FindViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DB9EB1EA4A2F20092CCAE /* FindViewModel.m */; };
 		CF0DB9FC1EA4A2F20092CCAE /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF0DB9EC1EA4A2F20092CCAE /* placehoder.txt */; };
+		CF0DBA0F1EA4B9640092CCAE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A17FD1E9C6DC30019C205 /* BaseViewController.m */; };
+		CF0DBA101EA4B9810092CCAE /* FunnyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF7871E9DCBC400D269AB /* FunnyViewController.m */; };
+		CF0DBA111EA4B99E0092CCAE /* HandGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF77E1E9DCB1000D269AB /* HandGameViewController.m */; };
 		CF1128ED1E9E2A45002E17F2 /* RecommendHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1128EC1E9E2A45002E17F2 /* RecommendHeaderCell.m */; };
 		CF1A177C1E9C640F0019C205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A177B1E9C640F0019C205 /* main.m */; };
 		CF1A177F1E9C640F0019C205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A177E1E9C640F0019C205 /* AppDelegate.m */; };
@@ -51,16 +54,12 @@
 		CF1A17F91E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17DF1E9C6A850019C205 /* placehoder.txt */; };
 		CF1A17FA1E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17E11E9C6A850019C205 /* placehoder.txt */; };
 		CF1A17FB1E9C6A850019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A17E31E9C6A850019C205 /* placehoder.txt */; };
-		CF1A17FE1E9C6DC30019C205 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A17FD1E9C6DC30019C205 /* BaseViewController.m */; };
 		CF1A18011E9C6DE30019C205 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18001E9C6DE30019C205 /* BaseModel.m */; };
 		CF1A18041E9C6E010019C205 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18031E9C6E010019C205 /* BaseView.m */; };
 		CF1A18071E9C6E1C0019C205 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18061E9C6E1C0019C205 /* BaseTableView.m */; };
 		CF1A180A1E9C6E2C0019C205 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18091E9C6E2C0019C205 /* BaseTableViewCell.m */; };
 		CF1A180D1E9C6E610019C205 /* BaseUICoccectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A180C1E9C6E610019C205 /* BaseUICoccectionView.m */; };
-
 		CF1A18131E9C6F2B0019C205 /* FollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18121E9C6F2B0019C205 /* FollowViewController.m */; };
-		CF1A18161E9C6F3D0019C205 /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18151E9C6F3D0019C205 /* LiveViewController.m */; };
-
 		CF1A18191E9C6F4D0019C205 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A18181E9C6F4D0019C205 /* UserViewController.m */; };
 		CF1A18231E9C6F8E0019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A181C1E9C6F8E0019C205 /* placehoder.txt */; };
 		CF1A18241E9C6F8E0019C205 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF1A181E1E9C6F8E0019C205 /* placehoder.txt */; };
@@ -79,10 +78,8 @@
 		CF1ACF981E9F7AFD00FC3245 /* gamePageCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1ACF971E9F7AFD00FC3245 /* gamePageCollectionViewFlowLayout.m */; };
 		CF3FF7781E9DC08A00D269AB /* DyHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF7771E9DC08A00D269AB /* DyHttpTool.m */; };
 		CF3FF77C1E9DCA6E00D269AB /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF77B1E9DCA6E00D269AB /* RecommendViewController.m */; };
-		CF3FF77F1E9DCB1000D269AB /* HandGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF77E1E9DCB1000D269AB /* HandGameViewController.m */; };
 		CF3FF7821E9DCB3D00D269AB /* AmuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF7811E9DCB3D00D269AB /* AmuseViewController.m */; };
 		CF3FF7851E9DCBA900D269AB /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF7841E9DCBA900D269AB /* GameViewController.m */; };
-		CF3FF7881E9DCBC400D269AB /* FunnyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF7871E9DCBC400D269AB /* FunnyViewController.m */; };
 		CF6AB4D71E9DDC8F007D744B /* HomeNaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6AB4D61E9DDC8F007D744B /* HomeNaviView.m */; };
 		CFB4D61F1EA095DE004B9D4B /* DYdataUrls.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4D61E1EA095DE004B9D4B /* DYdataUrls.m */; };
 		CFB4D6221EA099E3004B9D4B /* recommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4D6211EA099E3004B9D4B /* recommendModel.m */; };
@@ -132,7 +129,6 @@
 		E418832D1EA48D4E00B64E00 /* PubuliuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E41883021EA48D4E00B64E00 /* PubuliuCollectionViewCell.m */; };
 		E418832E1EA48D4E00B64E00 /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = E41883041EA48D4E00B64E00 /* placehoder.txt */; };
 		E418832F1EA48D4E00B64E00 /* zhibo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41883051EA48D4E00B64E00 /* zhibo.xcassets */; };
-		E41883311EA48D7C00B64E00 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41883301EA48D7C00B64E00 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -364,7 +360,6 @@
 		E41883021EA48D4E00B64E00 /* PubuliuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PubuliuCollectionViewCell.m; sourceTree = "<group>"; };
 		E41883041EA48D4E00B64E00 /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
 		E41883051EA48D4E00B64E00 /* zhibo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = zhibo.xcassets; sourceTree = "<group>"; };
-		E41883301EA48D7C00B64E00 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		E8079D01639B8791E8B5D19F /* Pods-Dyzb_UT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UT.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UT/Pods-Dyzb_UT.release.xcconfig"; sourceTree = "<group>"; };
 		FA8845A415EF31F8840A401B /* Pods-Dyzb_UTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UTTests/Pods-Dyzb_UTTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -377,7 +372,6 @@
 				E41882A81EA48CF200B64E00 /* AVFoundation.framework in Frameworks */,
 				E41882A61EA48CE800B64E00 /* libz.tbd in Frameworks */,
 				E41882A41EA48CE000B64E00 /* libbz2.tbd in Frameworks */,
-				E41883311EA48D7C00B64E00 /* IJKMediaFramework.framework in Frameworks */,
 				73AD14BE62FABE818D1FC502 /* libPods-Dyzb_UT.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,7 +506,6 @@
 		CF1A176E1E9C640E0019C205 = {
 			isa = PBXGroup;
 			children = (
-				E41883301EA48D7C00B64E00 /* IJKMediaFramework.framework */,
 				CF1A17791E9C640F0019C205 /* Dyzb_UT */,
 				CF1A17931E9C640F0019C205 /* Dyzb_UTTests */,
 				CF1A179E1E9C640F0019C205 /* Dyzb_UTUITests */,
@@ -1219,13 +1212,7 @@
 				CF1A17FA1E9C6A850019C205 /* placehoder.txt in Resources */,
 				CF1A17F81E9C6A850019C205 /* placehoder.txt in Resources */,
 				CF1A17F01E9C6A850019C205 /* placehoder.txt in Resources */,
-
-
-				CF1A17EE1E9C6A850019C205 /* placehoder.txt in Resources */,
 				E41883201EA48D4E00B64E00 /* LICENSE in Resources */,
-				CF1A17ED1E9C6A850019C205 /* placehoder.txt in Resources */,
-				CF1A17EC1E9C6A850019C205 /* placehoder.txt in Resources */,
-
 				CF1A17F31E9C6A850019C205 /* placehoder.txt in Resources */,
 				CF1A17F91E9C6A850019C205 /* placehoder.txt in Resources */,
 				CF1A17871E9C640F0019C205 /* Assets.xcassets in Resources */,
@@ -1236,13 +1223,10 @@
 				CF1A18241E9C6F8E0019C205 /* placehoder.txt in Resources */,
 				CF1A182C1E9C70350019C205 /* placehoder.txt in Resources */,
 				CF1A17E71E9C6A850019C205 /* placehoder.txt in Resources */,
-
 				CF0DB9F01EA4A2F20092CCAE /* Find.xcassets in Resources */,
 				CF0DB9F31EA4A2F20092CCAE /* placehoder.txt in Resources */,
-
 				E418830C1EA48D4E00B64E00 /* placehoder.txt in Resources */,
 				E418832F1EA48D4E00B64E00 /* zhibo.xcassets in Resources */,
-
 				CF1A17E61E9C6A850019C205 /* placehoder.txt in Resources */,
 				CF1A18251E9C6F8E0019C205 /* placehoder.txt in Resources */,
 				CF1A17F11E9C6A850019C205 /* placehoder.txt in Resources */,
@@ -1251,14 +1235,9 @@
 				CF1A17EB1E9C6A850019C205 /* placehoder.txt in Resources */,
 				CF1A17F21E9C6A850019C205 /* placehoder.txt in Resources */,
 				CF1A18261E9C6F8E0019C205 /* placehoder.txt in Resources */,
-
-				CF1A17F61E9C6A850019C205 /* placehoder.txt in Resources */,
 				CF0DB9FC1EA4A2F20092CCAE /* placehoder.txt in Resources */,
-
 				E41883081EA48D4E00B64E00 /* placehoder.txt in Resources */,
-				90E7DEFA1E9F64B600652574 /* Find.xcassets in Resources */,
 				E418832C1EA48D4E00B64E00 /* placehoder.txt in Resources */,
-
 				CF1A17FB1E9C6A850019C205 /* placehoder.txt in Resources */,
 				CF0DB9F91EA4A2F20092CCAE /* placehoder.txt in Resources */,
 				CF1A17851E9C640F0019C205 /* Main.storyboard in Resources */,
@@ -1425,14 +1404,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
-
+				CF0DBA111EA4B99E0092CCAE /* HandGameViewController.m in Sources */,
+				CF0DBA101EA4B9810092CCAE /* FunnyViewController.m in Sources */,
+				CF0DBA0F1EA4B9640092CCAE /* BaseViewController.m in Sources */,
 				E41883181EA48D4E00B64E00 /* BarrageFloatTextSprite.m in Sources */,
-				905A74411EA45D39001D11C4 /* FollowViewController.m in Sources */,
-				905A74401EA45CFE001D11C4 /* FindViewController.m in Sources */,
 				E418830E1EA48D4E00B64E00 /* UIImage+CompressImage.m in Sources */,
 				E41883261EA48D4E00B64E00 /* UIImageView+Extension.m in Sources */,
-
 				CF3FF7851E9DCBA900D269AB /* GameViewController.m in Sources */,
 				CF0DB9FA1EA4A2F20092CCAE /* BaseViewModel.m in Sources */,
 				CF0DB9EE1EA4A2F20092CCAE /* FindViewController.m in Sources */,
@@ -1440,21 +1417,13 @@
 				CF1A17821E9C640F0019C205 /* ViewController.m in Sources */,
 				CF1A18131E9C6F2B0019C205 /* FollowViewController.m in Sources */,
 				CF3FF7781E9DC08A00D269AB /* DyHttpTool.m in Sources */,
-
-				CF1A17FE1E9C6DC30019C205 /* BaseViewController.m in Sources */,
 				CF0DB9ED1EA4A2F20092CCAE /* FindFishController.m in Sources */,
-
-				9066F97F1E9E1F3700AAD4F1 /* FindView.m in Sources */,
 				E418832A1EA48D4E00B64E00 /* CommendTableViewCell.m in Sources */,
-				906AA7371EA0AA9200AA36D3 /* FindYnamicCollectionCell.m in Sources */,
 				E418830D1EA48D4E00B64E00 /* BANetManager.m in Sources */,
 				E41883071EA48D4E00B64E00 /* LiveViewController.m in Sources */,
-				9066F97C1E9E01EC00AAD4F1 /* FindTableViewCell.m in Sources */,
 				E41883091EA48D4E00B64E00 /* PlayerViewControllerViewController.m in Sources */,
-				CF1A17FE1E9C6DC30019C205 /* BaseViewController.m in Sources */,
 				E41883281EA48D4E00B64E00 /* ALinBottomTollView.m in Sources */,
 				E41883191EA48D4E00B64E00 /* BarrageSprite.m in Sources */,
-
 				CF6AB4D71E9DDC8F007D744B /* HomeNaviView.m in Sources */,
 				CF1ACF921E9F6EDF00FC3245 /* GameHeaderCell.m in Sources */,
 				CF0DB9F11EA4A2F20092CCAE /* BaseItemCellModel.m in Sources */,
@@ -1462,38 +1431,23 @@
 				CF0DB9FB1EA4A2F20092CCAE /* FindViewModel.m in Sources */,
 				CF1A18011E9C6DE30019C205 /* BaseModel.m in Sources */,
 				CF1A18291E9C700A0019C205 /* HomeViewController.m in Sources */,
-
-
-				90E7DEF21E9F1BA500652574 /* FindCollectionViewCell.m in Sources */,
 				E41883121EA48D4E00B64E00 /* BarrageDispatcher.m in Sources */,
 				E41883221EA48D4E00B64E00 /* MBProgressHUD.m in Sources */,
-
 				CF1A180A1E9C6E2C0019C205 /* BaseTableViewCell.m in Sources */,
 				CF1ACF8C1E9F174100FC3245 /* RecommendCollectionViewCell.m in Sources */,
 				CF0DB9F21EA4A2F20092CCAE /* FindCellModel.m in Sources */,
 				CFB4D61F1EA095DE004B9D4B /* DYdataUrls.m in Sources */,
 				CF1128ED1E9E2A45002E17F2 /* RecommendHeaderCell.m in Sources */,
-
 				CF0DB9F51EA4A2F20092CCAE /* FinddYnamicCell.m in Sources */,
-				CF3FF77F1E9DCB1000D269AB /* HandGameViewController.m in Sources */,
-				CF3FF7881E9DCBC400D269AB /* FunnyViewController.m in Sources */,
-
 				E418832B1EA48D4E00B64E00 /* MoveDragButton.m in Sources */,
-				CF3FF77F1E9DCB1000D269AB /* HandGameViewController.m in Sources */,
-				CF3FF7881E9DCBC400D269AB /* FunnyViewController.m in Sources */,
-				90E7DEFD1E9F7C2D00652574 /* FinddYnamicCell.m in Sources */,
 				E418832D1EA48D4E00B64E00 /* PubuliuCollectionViewCell.m in Sources */,
 				E418830F1EA48D4E00B64E00 /* BarrageCanvas.m in Sources */,
-
 				CF1A180D1E9C6E610019C205 /* BaseUICoccectionView.m in Sources */,
 				E41883271EA48D4E00B64E00 /* UIViewController+SLExtension.m in Sources */,
 				E41883141EA48D4E00B64E00 /* BarrageSpriteFactory.m in Sources */,
 				CFB4D6251EA09B91004B9D4B /* recommenBannerModel.m in Sources */,
-
 				CF0DB9F71EA4A2F20092CCAE /* FindView.m in Sources */,
-
 				E41883111EA48D4E00B64E00 /* BarrageDescriptor.m in Sources */,
-
 				CF1A177C1E9C640F0019C205 /* main.m in Sources */,
 				E41883161EA48D4E00B64E00 /* BarrageFloatImageSprite.m in Sources */,
 				CF1ACF861E9F120300FC3245 /* RecommendTableViewCell.m in Sources */,
@@ -1503,23 +1457,15 @@
 				E418831D1EA48D4E00B64E00 /* BarrageWalkTextSprite.m in Sources */,
 				CF1ACF981E9F7AFD00FC3245 /* gamePageCollectionViewFlowLayout.m in Sources */,
 				CF3FF77C1E9DCA6E00D269AB /* RecommendViewController.m in Sources */,
-
 				E41883251EA48D4E00B64E00 /* UIImage+ALinExtension.m in Sources */,
-				9066F9791E9E01AF00AAD4F1 /* FindCellModel.m in Sources */,
 				E41883151EA48D4E00B64E00 /* BarrageLoader.m in Sources */,
 				E41883291EA48D4E00B64E00 /* ALinBottomToolView.m in Sources */,
-				9066F96F1E9DF92000AAD4F1 /* BaseItemCellModel.m in Sources */,
 				E41883131EA48D4E00B64E00 /* BarrageRenderer.m in Sources */,
-				9066F9731E9DFACF00AAD4F1 /* BaseViewModel.m in Sources */,
-
 				CF1A18041E9C6E010019C205 /* BaseView.m in Sources */,
 				E418830B1EA48D4E00B64E00 /* CustomLayout.m in Sources */,
 				CF1ACF891E9F15CE00FC3245 /* RecommendCollectionFlowLayout.m in Sources */,
-
 				CF0DB9F81EA4A2F20092CCAE /* FindYnamicCollectionCell.m in Sources */,
-
 				E41883231EA48D4E00B64E00 /* README.mdown in Sources */,
-
 				CF1ACF951E9F763100FC3245 /* gameCollectionViewCell.m in Sources */,
 				E41883171EA48D4E00B64E00 /* BarrageFloatSprite.m in Sources */,
 				E41883061EA48D4E00B64E00 /* CommendLiveViewController.m in Sources */,
