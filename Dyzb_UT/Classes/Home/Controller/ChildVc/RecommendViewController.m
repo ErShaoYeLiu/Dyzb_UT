@@ -60,7 +60,7 @@
     NSDictionary *parame = @{@"time":timeStr};
     [DyHttpTool get:URL_Home_Hot params:parame success:^(id responseObj) {
        
-        NSLog(@"******%@******",responseObj);
+       NSLog(@"*************%@",[self dictionaryToJson:responseObj]);
        dispatch_group_leave(group);
     } failure:^(NSError *error) {
         dispatch_group_leave(group);
