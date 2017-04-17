@@ -10,7 +10,6 @@
 
 @interface SectionHeaderView ()
 @property (nonatomic, strong) UIImageView  *titleImageView;
-@property (nonatomic, strong) UILabel  *titleLabel;
 @property (nonatomic, strong) UILabel  *moreLable;
 @property (nonatomic, strong) UIImageView  *moreImageView;
 @end
