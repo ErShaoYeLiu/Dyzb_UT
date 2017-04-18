@@ -10,4 +10,5 @@
 
 @interface SectionHeaderView : BaseView
 @property (nonatomic, strong) UILabel  *titleLabel;
+@property (nonatomic, strong) UIImageView  *titleImageView;
 @end

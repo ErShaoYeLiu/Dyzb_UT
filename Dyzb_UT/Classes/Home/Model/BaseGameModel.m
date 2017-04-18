@@ -1,15 +1,19 @@
 //
-//  recommendModel.m
+//  BaseGameModel.m
 //  Dyzb_UT
 //
-//  Created by liutao on 17/4/14.
+//  Created by liutao on 17/4/18.
 //  Copyright © 2017年 UTOUU. All rights reserved.
 //
 
-#import "recommendModel.h"
+#import "BaseGameModel.h"
 
-@implementation recommendModel
+@implementation BaseGameModel
 
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key {
+    
+    
+}
 - (instancetype)initWithDic:(NSDictionary *)dic {
     self = [super init];
     if (self) {
@@ -18,8 +22,5 @@
     }
     return self;
 }
-- (void)setValue:(id)value forUndefinedKey:(NSString *)key {
 
-
-}
 @end

@@ -18,4 +18,5 @@
 @property (nonatomic, assign) NSInteger  online;
 @property (nonatomic, strong) NSString  *anchor_city;
 
+- (instancetype)initWithDic:(NSDictionary *)dic;
 @end

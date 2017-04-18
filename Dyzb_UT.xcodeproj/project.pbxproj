@@ -81,6 +81,8 @@
 		CF3FF77C1E9DCA6E00D269AB /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF77B1E9DCA6E00D269AB /* RecommendViewController.m */; };
 		CF3FF7821E9DCB3D00D269AB /* AmuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF7811E9DCB3D00D269AB /* AmuseViewController.m */; };
 		CF3FF7851E9DCBA900D269AB /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF7841E9DCBA900D269AB /* GameViewController.m */; };
+		CF5545211EA5B44300051E5E /* BaseGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5545201EA5B44300051E5E /* BaseGameModel.m */; };
+		CF5545241EA5B49F00051E5E /* AnchorGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5545231EA5B49F00051E5E /* AnchorGroupModel.m */; };
 		CF6AB4D71E9DDC8F007D744B /* HomeNaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6AB4D61E9DDC8F007D744B /* HomeNaviView.m */; };
 		CFB4D61F1EA095DE004B9D4B /* DYdataUrls.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4D61E1EA095DE004B9D4B /* DYdataUrls.m */; };
 		CFB4D6221EA099E3004B9D4B /* recommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4D6211EA099E3004B9D4B /* recommendModel.m */; };
@@ -273,6 +275,10 @@
 		CF3FF7841E9DCBA900D269AB /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		CF3FF7861E9DCBC400D269AB /* FunnyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnyViewController.h; sourceTree = "<group>"; };
 		CF3FF7871E9DCBC400D269AB /* FunnyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnyViewController.m; sourceTree = "<group>"; };
+		CF55451F1EA5B44300051E5E /* BaseGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGameModel.h; sourceTree = "<group>"; };
+		CF5545201EA5B44300051E5E /* BaseGameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGameModel.m; sourceTree = "<group>"; };
+		CF5545221EA5B49F00051E5E /* AnchorGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorGroupModel.h; sourceTree = "<group>"; };
+		CF5545231EA5B49F00051E5E /* AnchorGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchorGroupModel.m; sourceTree = "<group>"; };
 		CF6AB4D51E9DDC8F007D744B /* HomeNaviView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeNaviView.h; sourceTree = "<group>"; };
 		CF6AB4D61E9DDC8F007D744B /* HomeNaviView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeNaviView.m; sourceTree = "<group>"; };
 		CFB4D61D1EA095DE004B9D4B /* DYdataUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYdataUrls.h; sourceTree = "<group>"; };
@@ -822,6 +828,10 @@
 				CFB4D6211EA099E3004B9D4B /* recommendModel.m */,
 				CFB4D6231EA09B91004B9D4B /* recommenBannerModel.h */,
 				CFB4D6241EA09B91004B9D4B /* recommenBannerModel.m */,
+				CF55451F1EA5B44300051E5E /* BaseGameModel.h */,
+				CF5545201EA5B44300051E5E /* BaseGameModel.m */,
+				CF5545221EA5B49F00051E5E /* AnchorGroupModel.h */,
+				CF5545231EA5B49F00051E5E /* AnchorGroupModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1428,6 +1438,7 @@
 				E41883091EA48D4E00B64E00 /* PlayerViewControllerViewController.m in Sources */,
 				E41883281EA48D4E00B64E00 /* ALinBottomTollView.m in Sources */,
 				E41883191EA48D4E00B64E00 /* BarrageSprite.m in Sources */,
+				CF5545211EA5B44300051E5E /* BaseGameModel.m in Sources */,
 				CF6AB4D71E9DDC8F007D744B /* HomeNaviView.m in Sources */,
 				CF1ACF921E9F6EDF00FC3245 /* GameHeaderCell.m in Sources */,
 				CF0DB9F11EA4A2F20092CCAE /* BaseItemCellModel.m in Sources */,
@@ -1467,6 +1478,7 @@
 				E41883131EA48D4E00B64E00 /* BarrageRenderer.m in Sources */,
 				CF1A18041E9C6E010019C205 /* BaseView.m in Sources */,
 				E418830B1EA48D4E00B64E00 /* CustomLayout.m in Sources */,
+				CF5545241EA5B49F00051E5E /* AnchorGroupModel.m in Sources */,
 				CF1ACF891E9F15CE00FC3245 /* RecommendCollectionFlowLayout.m in Sources */,
 				CF0DB9F81EA4A2F20092CCAE /* FindYnamicCollectionCell.m in Sources */,
 				E41883231EA48D4E00B64E00 /* README.mdown in Sources */,

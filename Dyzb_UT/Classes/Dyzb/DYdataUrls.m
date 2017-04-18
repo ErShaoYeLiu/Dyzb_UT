@@ -15,4 +15,11 @@ NSString *const URL_Home_Banner = @"http://www.douyutv.com/api/v1/slide/6";
 NSString *const URL_Home_Hot = @"http://capi.douyucdn.cn/api/v1/getbigDataRoom";
 NSString *const URL_Home_Face = @"http://capi.douyucdn.cn/api/v1/getVerticalRoom";
 NSString *const URL_Home_Game = @"http://capi.douyucdn.cn/api/v1/getHotCate";
+//主页手游部分
+
+//主页娱乐部分
+
+//主页游戏部分
+
+//主页趣玩部分
 @end

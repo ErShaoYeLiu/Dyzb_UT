@@ -13,6 +13,7 @@ static BOOL isReused = NO;
 
 @interface RecommendTableViewCell () <UICollectionViewDataSource, UICollectionViewDelegate>
 @property (nonatomic, weak) UICollectionView *recommendCollectionView;
+@property (nonatomic, strong) NSMutableArray  *model;
 @end
 
 @implementation RecommendTableViewCell
@@ -20,8 +21,10 @@ static BOOL isReused = NO;
 + (instancetype)cellWithTableview:(UITableView *)tableview {
 
     RecommendTableViewCell *cell = [tableview dequeueReusableCellWithIdentifier:@"recommendCell"];
+    isReused = YES;
     if (!cell) {
         cell = [[RecommendTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"recommendCell"];
+        isReused = NO;
     }
     return cell;
 }
@@ -67,9 +70,28 @@ static BOOL isReused = NO;
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     RecommendCollectionViewCell *cell = [RecommendCollectionViewCell collectionViewCellWithCollectionView:collectionView index:indexPath];
+    if (indexPath.item < self.anchor.anchors.count) {
+        
+        cell.recommedModel = self.anchor.anchors[indexPath.item];
+    }
     return cell;
 }
 
+- (void)initDataWithModel:(NSMutableArray *)model {
+
+    self.model = model;
+    if (isReused) {
+        [self.recommendCollectionView reloadData];
+    }
+
+}
+- (void)setAnchor:(AnchorGroupModel *)anchor {
+    _anchor = anchor;
+    if (isReused) {
+        [self.recommendCollectionView reloadData];
+    }
+
+}
 #pragma mark - collectionView 代理
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath

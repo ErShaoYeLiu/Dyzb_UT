@@ -108,6 +108,16 @@
     
 }
 
+- (void)setRecommedModel:(recommendModel *)recommedModel {
+
+
+    _recommedModel = recommedModel;
+    [self.recommendImageView sd_setImageWithURL:[NSURL URLWithString:recommedModel.vertical_src] placeholderImage:[UIImage imageNamed:@"dyla_视频封面_placeholder"]];
+    self.onlineLable.text = [NSString stringWithFormat:@"%ld",recommedModel.online];
+    self.nameLable.text = recommedModel.nickname;
+    self.contentLable.text = recommedModel.room_name;
+
+}
 - (void)layoutSubviews {
 
     [super layoutSubviews];
