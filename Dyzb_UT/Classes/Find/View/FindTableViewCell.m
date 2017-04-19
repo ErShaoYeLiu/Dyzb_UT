@@ -9,8 +9,13 @@
 #import "FindTableViewCell.h"
 
 #import "FindCollectionViewCell.h"
-
 #import "Masonry.h"
+
+
+//鱼吧
+#import "FindFishController.h"
+
+#import "FindViewController.h"
 
 @interface FindTableViewCell()<UICollectionViewDelegate,UICollectionViewDataSource>
 
@@ -142,6 +147,11 @@
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
     NSLog(@"点击了%ld",indexPath.row);
+    
+    FindFishController *VC = [[FindFishController alloc]init];
+    
+    FindViewController *findViewController =  (FindViewController *)self.nextResponder.nextResponder.nextResponder.nextResponder;
+    [findViewController.navigationController pushViewController:VC animated:YES];
     
 }
 

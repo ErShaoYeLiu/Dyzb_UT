@@ -10,7 +10,12 @@
 		561FCE78631D6610477D91C3 /* libPods-Dyzb_UTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0873B0FA5BDD2C2B1963E54D /* libPods-Dyzb_UTUITests.a */; };
 		73AD14BE62FABE818D1FC502 /* libPods-Dyzb_UT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */; };
 		8DF9A1557D6970A19FF35C2C /* libPods-Dyzb_UTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3838D0A6B133998715B895 /* libPods-Dyzb_UTTests.a */; };
-		CF0DB9ED1EA4A2F20092CCAE /* FindFishController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DB9CE1EA4A2F20092CCAE /* FindFishController.m */; };
+		90693F011EA5B32F001B6982 /* FindFishController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90693EF71EA5B32F001B6982 /* FindFishController.m */; };
+		90693F021EA5B32F001B6982 /* FindFishCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90693EFB1EA5B32F001B6982 /* FindFishCell.m */; };
+		90693F031EA5B32F001B6982 /* FindFishTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90693EFD1EA5B32F001B6982 /* FindFishTitleView.m */; };
+		90693F071EA5B3DC001B6982 /* FindVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90693F061EA5B3DC001B6982 /* FindVideoView.m */; };
+		90693F0A1EA5DEC5001B6982 /* FindListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90693F091EA5DEC5001B6982 /* FindListView.m */; };
+		90693F0D1EA5EE46001B6982 /* FindListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90693F0C1EA5EE46001B6982 /* FindListCell.m */; };
 		CF0DB9EE1EA4A2F20092CCAE /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DB9D01EA4A2F20092CCAE /* FindViewController.m */; };
 		CF0DB9EF1EA4A2F20092CCAE /* placehoder.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF0DB9D11EA4A2F20092CCAE /* placehoder.txt */; };
 		CF0DB9F01EA4A2F20092CCAE /* Find.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0DB9D21EA4A2F20092CCAE /* Find.xcassets */; };
@@ -116,8 +121,18 @@
 		5F3838D0A6B133998715B895 /* libPods-Dyzb_UTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dyzb_UTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7404691FDA7902697979CE46 /* Pods-Dyzb_UT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UT/Pods-Dyzb_UT.debug.xcconfig"; sourceTree = "<group>"; };
 		7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dyzb_UT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF0DB9CD1EA4A2F20092CCAE /* FindFishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFishController.h; sourceTree = "<group>"; };
-		CF0DB9CE1EA4A2F20092CCAE /* FindFishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFishController.m; sourceTree = "<group>"; };
+		90693EF61EA5B32F001B6982 /* FindFishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFishController.h; sourceTree = "<group>"; };
+		90693EF71EA5B32F001B6982 /* FindFishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFishController.m; sourceTree = "<group>"; };
+		90693EFA1EA5B32F001B6982 /* FindFishCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFishCell.h; sourceTree = "<group>"; };
+		90693EFB1EA5B32F001B6982 /* FindFishCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFishCell.m; sourceTree = "<group>"; };
+		90693EFC1EA5B32F001B6982 /* FindFishTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFishTitleView.h; sourceTree = "<group>"; };
+		90693EFD1EA5B32F001B6982 /* FindFishTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFishTitleView.m; sourceTree = "<group>"; };
+		90693F051EA5B3DC001B6982 /* FindVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindVideoView.h; sourceTree = "<group>"; };
+		90693F061EA5B3DC001B6982 /* FindVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindVideoView.m; sourceTree = "<group>"; };
+		90693F081EA5DEC5001B6982 /* FindListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindListView.h; sourceTree = "<group>"; };
+		90693F091EA5DEC5001B6982 /* FindListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindListView.m; sourceTree = "<group>"; };
+		90693F0B1EA5EE46001B6982 /* FindListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindListCell.h; sourceTree = "<group>"; };
+		90693F0C1EA5EE46001B6982 /* FindListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindListCell.m; sourceTree = "<group>"; };
 		CF0DB9CF1EA4A2F20092CCAE /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
 		CF0DB9D01EA4A2F20092CCAE /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
 		CF0DB9D11EA4A2F20092CCAE /* placehoder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placehoder.txt; sourceTree = "<group>"; };
@@ -300,9 +315,61 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		90693EF41EA5B32F001B6982 /* 鱼吧 */ = {
+			isa = PBXGroup;
+			children = (
+				90693EF51EA5B32F001B6982 /* Controller */,
+				90693EF81EA5B32F001B6982 /* Model */,
+				90693EF91EA5B32F001B6982 /* View */,
+				90693F001EA5B32F001B6982 /* ViewModel */,
+			);
+			path = "鱼吧";
+			sourceTree = "<group>";
+		};
+		90693EF51EA5B32F001B6982 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90693EF61EA5B32F001B6982 /* FindFishController.h */,
+				90693EF71EA5B32F001B6982 /* FindFishController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90693EF81EA5B32F001B6982 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90693EF91EA5B32F001B6982 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90693EFA1EA5B32F001B6982 /* FindFishCell.h */,
+				90693EFB1EA5B32F001B6982 /* FindFishCell.m */,
+				90693EFC1EA5B32F001B6982 /* FindFishTitleView.h */,
+				90693EFD1EA5B32F001B6982 /* FindFishTitleView.m */,
+				90693F051EA5B3DC001B6982 /* FindVideoView.h */,
+				90693F061EA5B3DC001B6982 /* FindVideoView.m */,
+				90693F081EA5DEC5001B6982 /* FindListView.h */,
+				90693F091EA5DEC5001B6982 /* FindListView.m */,
+				90693F0B1EA5EE46001B6982 /* FindListCell.h */,
+				90693F0C1EA5EE46001B6982 /* FindListCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90693F001EA5B32F001B6982 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		CF0DB9CB1EA4A2F20092CCAE /* Find */ = {
 			isa = PBXGroup;
 			children = (
+				90693EF41EA5B32F001B6982 /* 鱼吧 */,
 				CF0DB9CC1EA4A2F20092CCAE /* Controller */,
 				CF0DB9D21EA4A2F20092CCAE /* Find.xcassets */,
 				CF0DB9D31EA4A2F20092CCAE /* Model */,
@@ -315,8 +382,6 @@
 		CF0DB9CC1EA4A2F20092CCAE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CF0DB9CD1EA4A2F20092CCAE /* FindFishController.h */,
-				CF0DB9CE1EA4A2F20092CCAE /* FindFishController.m */,
 				CF0DB9CF1EA4A2F20092CCAE /* FindViewController.h */,
 				CF0DB9D01EA4A2F20092CCAE /* FindViewController.m */,
 				CF0DB9D11EA4A2F20092CCAE /* placehoder.txt */,
@@ -1128,7 +1193,6 @@
 				CF1A18131E9C6F2B0019C205 /* FollowViewController.m in Sources */,
 				CF3FF7781E9DC08A00D269AB /* DyHttpTool.m in Sources */,
 				CF1A17FE1E9C6DC30019C205 /* BaseViewController.m in Sources */,
-				CF0DB9ED1EA4A2F20092CCAE /* FindFishController.m in Sources */,
 				CF6AB4D71E9DDC8F007D744B /* HomeNaviView.m in Sources */,
 				CF1ACF921E9F6EDF00FC3245 /* GameHeaderCell.m in Sources */,
 				CF0DB9F11EA4A2F20092CCAE /* BaseItemCellModel.m in Sources */,
@@ -1137,12 +1201,16 @@
 				CF1A18011E9C6DE30019C205 /* BaseModel.m in Sources */,
 				CF1A18291E9C700A0019C205 /* HomeViewController.m in Sources */,
 				CF1A180A1E9C6E2C0019C205 /* BaseTableViewCell.m in Sources */,
+				90693F031EA5B32F001B6982 /* FindFishTitleView.m in Sources */,
 				CF1A18161E9C6F3D0019C205 /* LiveViewController.m in Sources */,
 				CF1ACF8C1E9F174100FC3245 /* RecommendCollectionViewCell.m in Sources */,
 				CF0DB9F21EA4A2F20092CCAE /* FindCellModel.m in Sources */,
+				90693F011EA5B32F001B6982 /* FindFishController.m in Sources */,
 				CFB4D61F1EA095DE004B9D4B /* DYdataUrls.m in Sources */,
+				90693F0D1EA5EE46001B6982 /* FindListCell.m in Sources */,
 				CF1128ED1E9E2A45002E17F2 /* RecommendHeaderCell.m in Sources */,
 				CF0DB9F51EA4A2F20092CCAE /* FinddYnamicCell.m in Sources */,
+				90693F071EA5B3DC001B6982 /* FindVideoView.m in Sources */,
 				CF3FF77F1E9DCB1000D269AB /* HandGameViewController.m in Sources */,
 				CF3FF7881E9DCBC400D269AB /* FunnyViewController.m in Sources */,
 				CF1A180D1E9C6E610019C205 /* BaseUICoccectionView.m in Sources */,
@@ -1162,6 +1230,8 @@
 				CF1A182F1E9C70FF0019C205 /* DYTabBarViewController.m in Sources */,
 				CF3FF7821E9DCB3D00D269AB /* AmuseViewController.m in Sources */,
 				CF1A18191E9C6F4D0019C205 /* UserViewController.m in Sources */,
+				90693F021EA5B32F001B6982 /* FindFishCell.m in Sources */,
+				90693F0A1EA5DEC5001B6982 /* FindListView.m in Sources */,
 				CF1A18071E9C6E1C0019C205 /* BaseTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
