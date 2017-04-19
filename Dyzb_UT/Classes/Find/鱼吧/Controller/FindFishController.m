@@ -50,7 +50,7 @@
     [self initVideoView];
     
     
-//    [self initCollectionView];
+    [self initCollectionView];
     
 }
 
@@ -104,13 +104,13 @@
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
     FindFishCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
-    cell.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
+//    cell.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
+//    
+//    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+//    label.backgroundColor = [UIColor whiteColor];
+//    label.text = [NSString stringWithFormat:@"%ld",indexPath.row];
     
-    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
-    label.backgroundColor = [UIColor whiteColor];
-    label.text = [NSString stringWithFormat:@"%ld",indexPath.row];
-    
-    [cell addSubview:label];
+//    [cell addSubview:label];
 
     if (!cell) {
         cell = [[FindFishCell alloc]init];

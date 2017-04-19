@@ -12,6 +12,8 @@
 
 #import "FindListView.h"
 
+#import "FindFishTitleView.h"
+
 #define BTNHEIGHT    27
 
 #define Height_TitleView   30
@@ -26,6 +28,8 @@
 
 @property (nonatomic,assign) NSInteger current;
 
+@property (nonatomic,assign) NSInteger buttonTag;
+
 @end
 
 @implementation FindVideoView
@@ -37,6 +41,7 @@
         self.backgroundColor = [UIColor whiteColor];
         [self setUpView];
         self.current = 0;
+        self.buttonTag = 100;
     }
     return self;
 }
@@ -89,15 +94,23 @@
 
 -(void)iconClick:(UIButton *)sender{
     
-    FindListView *view = [[FindListView alloc]initWithFrame:CGRectMake(0, 30 , SCREEN_WIDTH,130)];
+    FindListView *view = [[FindListView alloc]initWithFrame:CGRectMake(0, 30 , SCREEN_WIDTH,SCREEN_HEIGHT - 30)];
+    
+    view.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.5];
+    
     view.currentPage = _current;
     view.titleArr = self.nameArr;
     FindFishController *vc  = (FindFishController *)self.nextResponder.nextResponder;
+    
+//    FindFishTitleView *titleView = [FindFishTitleView new];
+//    titleView.tag = 888;
+//    [[vc.navigationController.view viewWithTag:888] removeFromSuperview];
+    
     view.tag = 808080;
-    
-    view.cancelBlock = ^(NSInteger currentPage){
+    view.buttonTag = _buttonTag;
+    view.cancelBlock = ^(NSInteger currentPage,NSInteger buttonTag){
         _current = currentPage;
-    
+        _buttonTag = buttonTag;
         UIButton *btn = self.btnArr[currentPage];
         [self titleBtnTouch:btn];
         

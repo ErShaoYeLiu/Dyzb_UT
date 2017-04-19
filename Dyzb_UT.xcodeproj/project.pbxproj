@@ -10,6 +10,7 @@
 		561FCE78631D6610477D91C3 /* libPods-Dyzb_UTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0873B0FA5BDD2C2B1963E54D /* libPods-Dyzb_UTUITests.a */; };
 		73AD14BE62FABE818D1FC502 /* libPods-Dyzb_UT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */; };
 		8DF9A1557D6970A19FF35C2C /* libPods-Dyzb_UTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3838D0A6B133998715B895 /* libPods-Dyzb_UTTests.a */; };
+		900AA2E81EA7527E006A7751 /* FindVedioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 900AA2E71EA7527E006A7751 /* FindVedioCell.m */; };
 		90693F011EA5B32F001B6982 /* FindFishController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90693EF71EA5B32F001B6982 /* FindFishController.m */; };
 		90693F021EA5B32F001B6982 /* FindFishCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90693EFB1EA5B32F001B6982 /* FindFishCell.m */; };
 		90693F031EA5B32F001B6982 /* FindFishTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90693EFD1EA5B32F001B6982 /* FindFishTitleView.m */; };
@@ -121,6 +122,8 @@
 		5F3838D0A6B133998715B895 /* libPods-Dyzb_UTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dyzb_UTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7404691FDA7902697979CE46 /* Pods-Dyzb_UT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyzb_UT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dyzb_UT/Pods-Dyzb_UT.debug.xcconfig"; sourceTree = "<group>"; };
 		7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dyzb_UT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900AA2E61EA7527E006A7751 /* FindVedioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindVedioCell.h; sourceTree = "<group>"; };
+		900AA2E71EA7527E006A7751 /* FindVedioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindVedioCell.m; sourceTree = "<group>"; };
 		90693EF61EA5B32F001B6982 /* FindFishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFishController.h; sourceTree = "<group>"; };
 		90693EF71EA5B32F001B6982 /* FindFishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFishController.m; sourceTree = "<group>"; };
 		90693EFA1EA5B32F001B6982 /* FindFishCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFishCell.h; sourceTree = "<group>"; };
@@ -347,6 +350,8 @@
 			children = (
 				90693EFA1EA5B32F001B6982 /* FindFishCell.h */,
 				90693EFB1EA5B32F001B6982 /* FindFishCell.m */,
+				900AA2E61EA7527E006A7751 /* FindVedioCell.h */,
+				900AA2E71EA7527E006A7751 /* FindVedioCell.m */,
 				90693EFC1EA5B32F001B6982 /* FindFishTitleView.h */,
 				90693EFD1EA5B32F001B6982 /* FindFishTitleView.m */,
 				90693F051EA5B3DC001B6982 /* FindVideoView.h */,
@@ -1210,6 +1215,7 @@
 				90693F0D1EA5EE46001B6982 /* FindListCell.m in Sources */,
 				CF1128ED1E9E2A45002E17F2 /* RecommendHeaderCell.m in Sources */,
 				CF0DB9F51EA4A2F20092CCAE /* FinddYnamicCell.m in Sources */,
+				900AA2E81EA7527E006A7751 /* FindVedioCell.m in Sources */,
 				90693F071EA5B3DC001B6982 /* FindVideoView.m in Sources */,
 				CF3FF77F1E9DCB1000D269AB /* HandGameViewController.m in Sources */,
 				CF3FF7881E9DCBC400D269AB /* FunnyViewController.m in Sources */,
