@@ -10,6 +10,10 @@
 
 @implementation BaseTableViewCell
 
+- (void)dealloc{
+    NSLog(@"************释放类%@*********",[NSString stringWithUTF8String:object_getClassName(self)]);
+    
+}
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code

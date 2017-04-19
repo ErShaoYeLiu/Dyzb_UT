@@ -7,7 +7,7 @@
 //
 
 #import "BaseTableViewCell.h"
-
+#import "AnchorGroupModel.h"
 @class GameHeaderCell;
 @protocol GameHeaderCellDelefgate <NSObject>
 
@@ -17,5 +17,6 @@
 
 @interface GameHeaderCell : BaseTableViewCell
 @property (nonatomic, assign) id<GameHeaderCellDelefgate>  delegate;
+@property (nonatomic, strong) NSMutableArray <AnchorGroupModel *> *anchors;
 +(instancetype)cellWithTableview:(UITableView *)tableview;
 @end

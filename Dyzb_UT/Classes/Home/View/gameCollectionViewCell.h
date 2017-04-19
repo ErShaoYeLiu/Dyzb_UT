@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface gameCollectionViewCell : UICollectionViewCell
+@property (nonatomic, strong) UIImageView  *projectImageView;
+@property (nonatomic, strong) UILabel  *projectLable;
 + (instancetype)collectionViewCellWithCollectionView:(UICollectionView *)collectionview index:(NSIndexPath *)index;
 @end

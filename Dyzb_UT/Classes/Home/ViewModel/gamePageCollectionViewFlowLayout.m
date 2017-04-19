@@ -54,17 +54,11 @@
 - (void)prepareLayout
 {
     [super prepareLayout];
-    
+    [self.attributesArrayM removeAllObjects];
     // 从collectionView中获取到有多少个item
     NSInteger itemTotalCount = [self.collectionView numberOfItemsInSection:0];
     
-    // 遍历出item的attributes,把它添加到管理它的属性数组中去
-    for (int i = 0; i < itemTotalCount; i++) {
-        NSIndexPath *indexpath = [NSIndexPath indexPathForItem:i inSection:0];
-        UICollectionViewLayoutAttributes *attributes = [self layoutAttributesForItemAtIndexPath:indexpath];
-        [self.attributesArrayM addObject:attributes];
-    }
-}
+   }
 
 /** 计算collectionView的滚动范围 */
 - (CGSize)collectionViewContentSize
@@ -131,8 +125,19 @@
 /** 返回collectionView视图中所有视图的属性数组 */
 - (NSArray<UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect
 {
+    for (int i = 0; i < self.collectionView.numberOfSections; i ++) {
+        // 遍历出item的attributes,把它添加到管理它的属性数组中去
+        for (int j = 0; j < [self.collectionView numberOfItemsInSection:i]; j++) {
+            NSIndexPath *indexpath = [NSIndexPath indexPathForItem:j inSection:i];
+            UICollectionViewLayoutAttributes *attributes = [self layoutAttributesForItemAtIndexPath:indexpath];
+            [self.attributesArrayM addObject:attributes];
+        }
+        
+    }
+
     return self.attributesArrayM;
 }
+
 
 
 #pragma mark - Lazy

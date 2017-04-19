@@ -9,8 +9,7 @@
 #import "gameCollectionViewCell.h"
 
 @interface gameCollectionViewCell ()
-@property (nonatomic, strong) UIImageView  *projectImageView;
-@property (nonatomic, strong) UILabel  *projectLable;
+
 @end
 @implementation gameCollectionViewCell
 

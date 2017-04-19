@@ -39,7 +39,7 @@
    
 }
 
-+(void)post:(NSString *)url params:(NSDictionary *)params success:(void (^)(id))success failure:(void (^)(NSError *))failure {
++(void)post:(NSString *)url params:(NSDictionary *)params paratwo:(NSDictionary *)paratwo success:(void (^)(id))success failure:(void (^)(NSError *))failure {
    
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     manager.requestSerializer.timeoutInterval = 15;
@@ -51,6 +51,9 @@
                                                          @"text/json",
                                                          @"text/plain",
                                                          nil];
+    [manager.requestSerializer setValue:@"pcclient" forHTTPHeaderField:@"aid"];
+    [manager.requestSerializer setValue:paratwo[@"auth"] forHTTPHeaderField:@"auth"];
+     [manager.requestSerializer setValue:paratwo[@"time"] forHTTPHeaderField:@"time"];
     
     [manager POST:url parameters:params progress:^(NSProgress * _Nonnull uploadProgress) {
         

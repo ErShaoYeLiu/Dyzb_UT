@@ -10,8 +10,10 @@
 #import "RecommendTableViewCell.h"
 #import "GameHeaderCell.h"
 #import "SectionHeaderView.h"
+#import "AnchorGroupModel.h"
 @interface GameViewController ()<UITableViewDelegate,UITableViewDataSource,GameHeaderCellDelefgate,RecommendTableViewCellDelegate>
 @property (nonatomic, strong) UITableView  *gameTableView;
+@property (nonatomic, strong) NSMutableArray<AnchorGroupModel *>  *anchorsGroups;
 @end
 
 @implementation GameViewController
@@ -27,7 +29,19 @@
 
 - (void) initializeDataSource {
     
-    
+    // 娱乐的数据请求
+    [DyHttpTool get:URL_Home_Game_Detail params:nil success:^(id responseObj) {
+        NSArray *dataArray = responseObj[@"data"];
+        if (dataArray.count > 0) {
+            for (int i = 0; i < dataArray.count; i ++) {
+                AnchorGroupModel *group = [[AnchorGroupModel alloc] initWithDic:dataArray[i]];
+                [self.anchorsGroups addObject:group];
+            }
+            [self.gameTableView reloadData];
+        }
+    } failure:^(NSError *error) {
+        
+    }];
 }
 - (void) initializeUserInterFace {
     
@@ -46,7 +60,7 @@
     return _gameTableView;
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 15;
+    return self.anchorsGroups.count + 1;
     
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -57,11 +71,13 @@
     if (indexPath.section == 0) {
         GameHeaderCell *cell = [GameHeaderCell cellWithTableview:tableView];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        cell.anchors = self.anchorsGroups.mutableCopy;
         return cell;
     }else {
         
         RecommendTableViewCell *cell = [RecommendTableViewCell cellWithTableview:tableView];
          cell.setionType = SectionHeaderStyleOther;
+        cell.anchor = self.anchorsGroups[indexPath.section - 1];
         cell.delegate = self;
         return cell;
     }
@@ -90,12 +106,20 @@
         return nil;
     }else {
         SectionHeaderView *header = [[SectionHeaderView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, kH(44))];
+        header.titleLabel.text = self.anchorsGroups[section-1].tag_name;
+        [header.titleImageView sd_setImageWithURL:[NSURL URLWithString:self.anchorsGroups[section -1].icon_url] placeholderImage:[UIImage imageNamed:@"home_header_hot"]];
         // 添加手势
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(sectionHeaderViewTapped:)];
         header.tag = section - 1;
         [header addGestureRecognizer:tap];
         return header;
     }
+}
+- (NSMutableArray *)anchorsGroups {
+    if (!_anchorsGroups) {
+        _anchorsGroups  = [NSMutableArray array];
+    }
+    return _anchorsGroups;
 }
 #pragma mark - 手势点击处理
 

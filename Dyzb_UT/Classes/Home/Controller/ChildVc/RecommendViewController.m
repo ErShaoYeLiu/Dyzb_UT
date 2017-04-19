@@ -13,6 +13,7 @@
 #import "recommendModel.h"
 #import "recommenBannerModel.h"
 #import "AnchorGroupModel.h"
+#import "PlayerViewController.h"
 @interface RecommendViewController ()<UITableViewDelegate,UITableViewDataSource,RecommendTableViewCellDelegate>
 @property (nonatomic, strong) UITableView  *homeTableView;
 @property (nonatomic, strong) recommendModel  *recommentHotModel;
@@ -48,15 +49,12 @@
     dispatch_group_t group = dispatch_group_create();
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     //请求轮播
-    
     dispatch_group_enter(group);
     NSDictionary *parameters = @{@"version":@"2.480"};
     [DyHttpTool get:URL_Home_Banner params:parameters success:^(id responseObj) {
         
-        NSLog(@"Banner%@",[self dictionaryToJson:responseObj]);
+//        NSLog(@"Banner%@",[self dictionaryToJson:responseObj]);
         self.dataArray = [recommenBannerModel mj_objectArrayWithKeyValuesArray:responseObj[@"data"]];
-        NSLog(@"Model:****%@",self.dataArray);
-        
         for (recommenBannerModel *model in self.dataArray) {
             [self.listArray addObject:model.pic_url];
         }
@@ -68,6 +66,7 @@
     }];
 
     NSString *timeStr = [NSString stringWithFormat:@"%f", (double)[[NSDate date] timeIntervalSince1970]];
+    NSLog(@"%@",timeStr);
     // 请求推荐
     dispatch_group_enter(group);
     NSDictionary *parame = @{@"time":timeStr};
@@ -104,7 +103,7 @@
             }
         }
         
-         NSLog(@"颜值数据%@",[self dictionaryToJson:responseObj]);
+//         NSLog(@"颜值数据%@",[self dictionaryToJson:responseObj]);
         dispatch_group_leave(group);
     } failure:^(NSError *error) {
         dispatch_group_leave(group);
@@ -120,7 +119,7 @@
                 [self.anchorsGroups addObject:group];
             }
         }
-        NSLog(@"游戏数据%@",[self dictionaryToJson:responseObj]);
+//        NSLog(@"游戏数据%@",[self dictionaryToJson:responseObj]);
         dispatch_group_leave(group);
     } failure:^(NSError *error) {
         
@@ -135,7 +134,8 @@
             [self.homeTableView reloadData];
         });
     });
-}
+
+   }
 - (NSString*)dictionaryToJson:(NSDictionary *)dic
 
 {
@@ -242,6 +242,9 @@
 #pragma mark - recommendcell /delegate
 - (void)recommendTableViewCell:(RecommendTableViewCell *)cell didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 //处理cell的点击事件
+    PlayerViewController *player = [[PlayerViewController alloc] init];
+    player.roomModel = self.anchorsGroups[indexPath.section].anchors[indexPath.item];
+    [self presentViewController:player animated:YES completion:nil];
 
 }
 - (AnchorGroupModel *)bigDataGroup {
@@ -260,7 +263,6 @@
     if (!_anchorsGroups) {
         _anchorsGroups  = [NSMutableArray array];
     }
-
     return _anchorsGroups;
 }
 @end
