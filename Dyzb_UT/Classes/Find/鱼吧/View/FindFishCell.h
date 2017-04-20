@@ -1,5 +1,5 @@
 //
-//  FindFishView.h
+//  FindFishCell.h
 //  Dyzb_UT
 //
 //  Created by 孙好运 on 2017/4/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FindFishView : UIView
+@interface FindFishCell : UICollectionViewCell
 
 @end
