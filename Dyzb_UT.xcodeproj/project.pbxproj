@@ -11,6 +11,8 @@
 		73AD14BE62FABE818D1FC502 /* libPods-Dyzb_UT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */; };
 		8DF9A1557D6970A19FF35C2C /* libPods-Dyzb_UTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3838D0A6B133998715B895 /* libPods-Dyzb_UTTests.a */; };
 		900AA2E81EA7527E006A7751 /* FindVedioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 900AA2E71EA7527E006A7751 /* FindVedioCell.m */; };
+		9019FAF01EA84A9300DBC92B /* FindHotGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9019FAEF1EA84A9300DBC92B /* FindHotGroupController.m */; };
+		9019FAF31EA84BAB00DBC92B /* FindHotGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9019FAF21EA84BAB00DBC92B /* FindHotGroupCell.m */; };
 		90693F011EA5B32F001B6982 /* FindFishController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90693EF71EA5B32F001B6982 /* FindFishController.m */; };
 		90693F021EA5B32F001B6982 /* FindFishCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90693EFB1EA5B32F001B6982 /* FindFishCell.m */; };
 		90693F031EA5B32F001B6982 /* FindFishTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90693EFD1EA5B32F001B6982 /* FindFishTitleView.m */; };
@@ -124,6 +126,10 @@
 		7BA4B86C780309E64A7F9528 /* libPods-Dyzb_UT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dyzb_UT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		900AA2E61EA7527E006A7751 /* FindVedioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindVedioCell.h; sourceTree = "<group>"; };
 		900AA2E71EA7527E006A7751 /* FindVedioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindVedioCell.m; sourceTree = "<group>"; };
+		9019FAEE1EA84A9300DBC92B /* FindHotGroupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindHotGroupController.h; sourceTree = "<group>"; };
+		9019FAEF1EA84A9300DBC92B /* FindHotGroupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindHotGroupController.m; sourceTree = "<group>"; };
+		9019FAF11EA84BAB00DBC92B /* FindHotGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindHotGroupCell.h; sourceTree = "<group>"; };
+		9019FAF21EA84BAB00DBC92B /* FindHotGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindHotGroupCell.m; sourceTree = "<group>"; };
 		90693EF61EA5B32F001B6982 /* FindFishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFishController.h; sourceTree = "<group>"; };
 		90693EF71EA5B32F001B6982 /* FindFishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFishController.m; sourceTree = "<group>"; };
 		90693EFA1EA5B32F001B6982 /* FindFishCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFishCell.h; sourceTree = "<group>"; };
@@ -318,6 +324,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9019FAE61EA849D100DBC92B /* 热门小组 */ = {
+			isa = PBXGroup;
+			children = (
+				9019FAE71EA849D100DBC92B /* Controller */,
+				9019FAE81EA849D100DBC92B /* Model */,
+				9019FAE91EA849D100DBC92B /* View */,
+				9019FAEA1EA849D100DBC92B /* ViewModel */,
+			);
+			path = "热门小组";
+			sourceTree = "<group>";
+		};
+		9019FAE71EA849D100DBC92B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9019FAEE1EA84A9300DBC92B /* FindHotGroupController.h */,
+				9019FAEF1EA84A9300DBC92B /* FindHotGroupController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9019FAE81EA849D100DBC92B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9019FAE91EA849D100DBC92B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9019FAF11EA84BAB00DBC92B /* FindHotGroupCell.h */,
+				9019FAF21EA84BAB00DBC92B /* FindHotGroupCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9019FAEA1EA849D100DBC92B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		90693EF41EA5B32F001B6982 /* 鱼吧 */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,6 +423,7 @@
 		CF0DB9CB1EA4A2F20092CCAE /* Find */ = {
 			isa = PBXGroup;
 			children = (
+				9019FAE61EA849D100DBC92B /* 热门小组 */,
 				90693EF41EA5B32F001B6982 /* 鱼吧 */,
 				CF0DB9CC1EA4A2F20092CCAE /* Controller */,
 				CF0DB9D21EA4A2F20092CCAE /* Find.xcassets */,
@@ -1204,6 +1254,7 @@
 				CF1A177F1E9C640F0019C205 /* AppDelegate.m in Sources */,
 				CF0DB9FB1EA4A2F20092CCAE /* FindViewModel.m in Sources */,
 				CF1A18011E9C6DE30019C205 /* BaseModel.m in Sources */,
+				9019FAF01EA84A9300DBC92B /* FindHotGroupController.m in Sources */,
 				CF1A18291E9C700A0019C205 /* HomeViewController.m in Sources */,
 				CF1A180A1E9C6E2C0019C205 /* BaseTableViewCell.m in Sources */,
 				90693F031EA5B32F001B6982 /* FindFishTitleView.m in Sources */,
@@ -1216,6 +1267,7 @@
 				CF1128ED1E9E2A45002E17F2 /* RecommendHeaderCell.m in Sources */,
 				CF0DB9F51EA4A2F20092CCAE /* FinddYnamicCell.m in Sources */,
 				900AA2E81EA7527E006A7751 /* FindVedioCell.m in Sources */,
+				9019FAF31EA84BAB00DBC92B /* FindHotGroupCell.m in Sources */,
 				90693F071EA5B3DC001B6982 /* FindVideoView.m in Sources */,
 				CF3FF77F1E9DCB1000D269AB /* HandGameViewController.m in Sources */,
 				CF3FF7881E9DCBC400D269AB /* FunnyViewController.m in Sources */,

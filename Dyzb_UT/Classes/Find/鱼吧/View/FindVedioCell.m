@@ -38,7 +38,6 @@
     
     _headerImageView = [UIImageView new];
     _headerImageView.image = [UIImage imageNamed:@"headerIcon"];
-    
     [self addSubview:_headerImageView];
     
     _nameLabel = [UILabel new];
@@ -98,7 +97,6 @@
         make.bottom.mas_equalTo(_headerImageView);
     }];
 }
-
 
 
 @end
