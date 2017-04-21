@@ -44,6 +44,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    self.title = @"首页";
     //设置导航栏透明
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setShadowImage:[UIImage new]];
@@ -96,7 +97,20 @@
     }
     return _homeCustomNavi;
 }
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    self.navigationController.navigationBar.hidden = YES;
 
+
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+
+    [super viewDidDisappear:animated];
+    self.navigationController.navigationBar.backgroundColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.hidden = NO;
+}
 
 #pragma mark - Datasource/delegate
 - (NSInteger)numbersOfChildControllersInPageController:(WMPageController *)pageController {

@@ -14,6 +14,8 @@
 #import "recommenBannerModel.h"
 #import "AnchorGroupModel.h"
 #import "PlayerViewController.h"
+#import "MoreViewController.h"
+#import "HomeViewController.h"
 @interface RecommendViewController ()<UITableViewDelegate,UITableViewDataSource,RecommendTableViewCellDelegate>
 @property (nonatomic, strong) UITableView  *homeTableView;
 @property (nonatomic, strong) recommendModel  *recommentHotModel;
@@ -71,7 +73,7 @@
     dispatch_group_enter(group);
     NSDictionary *parame = @{@"time":timeStr};
     [DyHttpTool get:URL_Home_Hot params:parame success:^(id responseObj) {
-       
+       NSLog(@"数据%@",[self dictionaryToJson:responseObj]);
         NSArray *dataArray = responseObj[@"data"];
         if (dataArray.count > 0) {
             self.bigDataGroup.tag_name = @"热门";
@@ -232,11 +234,24 @@
         return header;
     }
 }
+
+
 #pragma mark - 手势点击处理
 
 - (void)sectionHeaderViewTapped:(UIGestureRecognizer *)tap
 {
     NSLog(@"%s %ld", __FUNCTION__, tap.view.tag);
+    if (tap.view.tag > 1) {
+        MoreViewController *moreVC = [[MoreViewController alloc] init];
+        moreVC.cateid = self.anchorsGroups[tap.view.tag].tag_id;
+        NSLog(@"*********%@********",[NSString stringWithUTF8String:object_getClassName(self.parentViewController)]);
+        [self.parentViewController.navigationController pushViewController:moreVC animated:YES];
+        
+    }else {
+    
+        [MBProgressHUD showError:@"没有更多了"];
+    
+    }
     NSLog(@"点击到更多页面%ld",tap.view.tag);
 }
 #pragma mark - recommendcell /delegate
@@ -244,6 +259,7 @@
 //处理cell的点击事件
     PlayerViewController *player = [[PlayerViewController alloc] init];
     player.roomModel = self.anchorsGroups[indexPath.section].anchors[indexPath.item];
+//    [self.navigationController pushViewController:player animated:YES];
     [self presentViewController:player animated:YES completion:nil];
 
 }

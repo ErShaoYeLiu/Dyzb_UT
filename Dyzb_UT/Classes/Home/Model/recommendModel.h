@@ -17,6 +17,7 @@
 @property (nonatomic, strong) NSString  *nickname;
 @property (nonatomic, assign) NSInteger  online;
 @property (nonatomic, strong) NSString  *anchor_city;
+@property (nonatomic, strong) NSString  *cate_id;
 
 - (instancetype)initWithDic:(NSDictionary *)dic;
 @end

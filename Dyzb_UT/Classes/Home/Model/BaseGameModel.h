@@ -12,5 +12,6 @@
 
 @property (nonatomic, strong) NSString  *tag_name;
 @property (nonatomic, strong) NSString  *icon_url;
+@property (nonatomic, strong) NSString  *tag_id;
 - (instancetype)initWithDic:(NSDictionary *)dic;
 @end
