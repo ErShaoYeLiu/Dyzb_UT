@@ -106,13 +106,14 @@
     CGFloat itemHeight = (self.collectionView.frame.size.height - self.edgeInsets.top - self.edgeInsets.bottom - (self.rowCount - 1) * self.rowSpacing) / self.rowCount;
     
     NSInteger item = indexPath.item;
+    NSLog(@"item所在的页数：%ld",indexPath.item);
     // 当前item所在的页
     NSInteger pageNumber = item / (self.rowCount * self.itemCountPerRow);
     NSInteger x = item % self.itemCountPerRow + pageNumber * self.itemCountPerRow;
     NSInteger y = item / self.itemCountPerRow - pageNumber * self.rowCount;
     
     // 计算出item的坐标
-    CGFloat itemX = self.edgeInsets.left + (itemWidth + self.columnSpacing) * x;
+    CGFloat itemX = self.edgeInsets.left* (x/4.0) + (itemWidth + self.columnSpacing) * x;
     CGFloat itemY = self.edgeInsets.top + (itemHeight + self.rowSpacing) * y;
     
     UICollectionViewLayoutAttributes *attributes = [super layoutAttributesForItemAtIndexPath:indexPath];

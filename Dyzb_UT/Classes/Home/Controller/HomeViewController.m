@@ -131,19 +131,21 @@
 }
 - (void)titleViewLeftViewBtnWith:(HomeNaviView *)homeNaviView {
 
+     NSLog(@"点击标题");
 
 }
 - (void)QrcodeBtnWith:(HomeNaviView *)homeNaviView {
 
+     NSLog(@"点击二维码");
 }
 
 - (void)gameBtnWith:(HomeNaviView *)homeNaviView {
 
-
+ NSLog(@"点击游戏");
 }
 
 - (void)lockBtnWith:(HomeNaviView *)homeNaviView {
-
+ NSLog(@"点击记录");
 
 }
 @end

@@ -43,7 +43,7 @@ static BOOL isReused = NO;
 - (void)setupCollectionView {
 
     gamePageCollectionViewFlowLayout *flowLayout = [[gamePageCollectionViewFlowLayout alloc] initWithRowCount:2 itemCountPerRow:4];
-    [flowLayout setColumnSpacing:kW(20) rowSpacing:kH(15) edgeInsets:UIEdgeInsetsMake(10, 10, 10, 10)];
+    [flowLayout setColumnSpacing:kW(10) rowSpacing:kH(10) edgeInsets:UIEdgeInsetsMake(10, 10, 10, 10)];
     flowLayout.minimumLineSpacing = 0;
     flowLayout.minimumInteritemSpacing = 0;
     flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;

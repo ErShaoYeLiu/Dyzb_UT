@@ -260,7 +260,7 @@
     PlayerViewController *player = [[PlayerViewController alloc] init];
     player.roomModel = self.anchorsGroups[indexPath.section].anchors[indexPath.item];
 //    [self.navigationController pushViewController:player animated:YES];
-    [self presentViewController:player animated:YES completion:nil];
+    [self.parentViewController presentViewController:player animated:YES completion:nil];
 
 }
 - (AnchorGroupModel *)bigDataGroup {

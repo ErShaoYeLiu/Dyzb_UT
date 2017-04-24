@@ -92,10 +92,12 @@
 
 - (void)backAction
 {
-    self.playView = nil;
+//    self.playView = nil;
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
+- (BOOL)shouldAutorotate{
+    return YES;
+}
 - (void)shareAction
 {
     NSLog(@"share");

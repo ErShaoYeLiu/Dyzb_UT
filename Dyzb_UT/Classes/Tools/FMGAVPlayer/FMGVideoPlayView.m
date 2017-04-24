@@ -134,7 +134,7 @@
         [self videoplayViewSwitchOrientation:!sender.selected];
     }
     else {
-        
+       
         [self.delegate backAction];
     }
     
@@ -163,7 +163,11 @@
 
 - (IBAction)switchOrientation:(UIButton *)sender {
     sender.selected = !sender.selected;
-    
+    NSNumber *value = [NSNumber numberWithInt:UIInterfaceOrientationLandscapeRight];
+    if (sender.selected) {
+        value = [NSNumber numberWithInt:UIInterfaceOrientationPortrait];
+    }
+    [[UIDevice currentDevice] setValue:value forKey:@"orientation"];
     [self videoplayViewSwitchOrientation:sender.selected];
 }
 
@@ -176,7 +180,8 @@
         [self.contrainerViewController presentViewController:self.fullVc animated:NO completion:^{
             [self.fullVc.view addSubview:self];
             self.center = self.fullVc.view.center;
-            
+            [[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationLandscapeLeft|UIInterfaceOrientationLandscapeRight];
+            [[UIDevice currentDevice] setValue:[NSNumber numberWithInteger:UIDeviceOrientationLandscapeLeft] forKey:@"orientation"];
             [UIView animateWithDuration:0.15 delay:0.0 options:UIViewAnimationOptionLayoutSubviews animations:^{
                 self.frame = self.fullVc.view.bounds;
             } completion:nil];
@@ -185,13 +190,15 @@
     
         [self.fullVc dismissViewControllerAnimated:NO completion:^{
             [self.contrainerViewController.view addSubview:self];
-            
-            [UIView animateWithDuration:0.15 delay:0.0 options:UIViewAnimationOptionLayoutSubviews animations:^{
+            [[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationPortrait];
+            [[UIDevice currentDevice] setValue:[NSNumber numberWithInteger:UIDeviceOrientationPortrait] forKey:@"orientation"];
+            [UIView animateWithDuration:0.25 delay:0.0 options:UIViewAnimationOptionLayoutSubviews animations:^{
                 self.frame = CGRectMake(0, 20, self.contrainerViewController.view.bounds.size.width, self.contrainerViewController.view.bounds.size.width * 9 / 16);
             } completion:nil];
         }];
     }
 }
+
 
 #pragma mark - 懒加载代码
 - (FullViewController *)fullVc
